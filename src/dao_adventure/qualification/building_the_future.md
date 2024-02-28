@@ -1,8 +1,8 @@
 # Building the future
 
-Let's start by understanding why DAOs and the Internet Computer represent a unique opportunity for you to shape the future and participate in building a new society.
+Before diving into the next part of this course, let's understand why **DAOs**, **the Internet Computer** and **Motoko** represent a unique opportunity for you to shape the future and participate in building a new society.
 
-## What is the Internet Computer?
+## The Internet Computer: when crypto meet computing.
 
 The Internet Computer is a decentralized cloud. Traditional clouds are owned and operated by a single company (Amazon Web Services, Google Cloud, Microsoft Azure...) - the Internet Computer is owned and operated by a DAO - the Network Nervous System (NNS).
 
@@ -14,7 +14,7 @@ The Internet Computer is a decentralized cloud. Traditional clouds are owned and
 
 > Imagine if Bitcoin and Google Cloud had a baby. That baby would be the Internet Computer.
 
-## What is a canister?
+## A canister: a decentralized server 
 Whether you are considering building:
 
 - A Website
@@ -28,7 +28,7 @@ Developers write their application by writting code for their canisters. The can
 
 > You can think of a canister as a transparent, autonomous and decentralized computer. The computer can perfom diverse tasks for us and we are able to trust that the tasks will be performed - no matter who write the code.
 
-## The Motoko Language
+## Motoko: a new language for a new environment
 To operate and run tasks canisters run a virtual machine: **WebAssembly**. **WebAssembly** is extremly fast, efficient and secure. Unfortunately, **WebAssembly** is a low level language. Developers don't write code in **WebAssembly** - they use a higher level language that compiles to **WebAssembly**.
 
 There was no language that was specifically designed for WebAssembly and the Internet Computer. That's why, the [DFINITY Foundation](https://dfinity.org/) created the **Motoko** language.
@@ -37,7 +37,7 @@ In this entire course, your code will be written in **Motoko**.
 
 > As a new language, Motoko represents a unique opportunity for developers to improve their skills and learn a Web3 native language.
 
-## What is a dApp?
+## Decentralized Application
 A dApp is a decentralized application.
 For an application to be considered decentralized, it generaly needs to fulfill the following conditions:
 
