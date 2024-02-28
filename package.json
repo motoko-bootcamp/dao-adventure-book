@@ -1,0 +1,14 @@
+{
+    "type": "module",
+    "devDependencies": {
+      "@types/node": "^18.11.18",
+      "motoko": "^3.3.0",
+      "tsc": "^2.0.4",
+      "vite": "^4.2.0"
+    },
+    "scripts": {
+      "dev": "mdbook serve",
+      "build:book": "vite build && mdbook build",
+      "build": "npm run build:book"
+    }
+  }
