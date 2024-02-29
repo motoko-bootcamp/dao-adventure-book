@@ -4,3 +4,19 @@ language = "en"
 multilingual = false
 src = "src"
 title = "dao-adventure-book"
+
+[output.html]
+unsafe = true
+
+additional-js = ["theme/motoko.js"]
+
+git-repository-icon = "fa-github"
+git-repository-url = "https://github.com/motoko-bootcamp/dao-adventure-book"
+edit-url-template = "https://github.com/motoko-bootcamp/dao-adventure-book/edit/main/{path}"
+
+[output.html.fold]
+enable = true    # whether or not to enable section folding
+level = 0         # the depth to start folding
+
+[build]
+create-missing = true

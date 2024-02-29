@@ -7,6 +7,7 @@
     - [Registration](./dao_adventure/qualification/registration.md)
     - [Your first challenge](./dao_adventure/qualification/your_first_challenge.md)
     - [Building the future](./dao_adventure/qualification/building_the_future.md)
+    - [Local setup (Optional)](./dao_adventure/qualification/local_setup.md)
 - [Chapter 1 - What is your dream?](./dao_adventure/chapter_1.md)
 - [Chapter 2 - Create your tribe](./dao_adventure/chapter_2.md)
 - [Chapter 3 - Making money](./dao_adventure/chapter_3.md)

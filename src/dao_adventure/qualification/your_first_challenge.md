@@ -49,10 +49,11 @@ Verify the workspace setup by running `dfx --version` in the newly open terminal
 
 > Facing issues when setting up the workspace? 
 
-1. Try switching to another browser (Firefox is recommended)
-2. Try to empty your cache and refresh the page.
-3. Try using **Incognito Mode**.
-4. If none of the above solves your issue, reach out on our feedback channel.
+1. Deactivate your browser extensions. For instance, we've identified the [Plug wallet](https://twitter.com/plug_wallet) extension as causing issues.
+2. Switch to the **Incognito Mode**.
+3. Switch to another browser (Chrome is recommended)
+4. Empty your cache and refresh the page.
+5. Reach out directly on our [feedback channel](https://discord.gg/vTcwUdUwTf).
 
 ## Your first challenge 
 

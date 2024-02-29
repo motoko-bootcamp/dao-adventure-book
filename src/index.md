@@ -29,9 +29,20 @@ No prior experience with Web3, the Internet Computer, Motoko, or DAOs is require
 >  We encourage coding-beginners to join; the course is beginner-friendly, and we'll provide all needed resources and support for successful completion.
 
 ## Coding Environment 🛠️
-If you want to skip the local installation process, you can use our online development environment to complete the course.
+We recommend to use our online development environment to complete the course. Get started with just one click 👇
 
-> [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](http://gitpod.io/#http://github.com/motoko-bootcamp/dao-adventure)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](http://gitpod.io/#http://github.com/motoko-bootcamp/dao-adventure)
+
+> Facing issues when setting up the workspace? 
+
+1. Deactivate your browser extensions. For instance, we've identified the [Plug wallet](https://twitter.com/plug_wallet) extension as causing issues.
+2. Switch to the **Incognito Mode**.
+3. Switch to another browser (Chrome is recommended)
+4. Empty your cache and refresh the page.
+5. Reach out directly on our [feedback channel](https://discord.gg/vTcwUdUwTf).
+
+> Prefer to work locally? 
+Read our [local setup guide](./dao_adventure/qualification/local_setup.md).
 
 ## Course 🧑‍💻
 
@@ -51,11 +62,10 @@ desire to continue your journey after graduation. Each chapter, contains coding 
 ## Theory 📚
 The course offers 13 optional yet strongly advised Motoko lessons, essential for each chapter. For every chapter, we'll suggest relevant lessons.
 
-
 ## Playlist 🍿
 To help you with the course, we have created a playlist with all the videos you need to complete the course - it also contains additional resources and tutorials about Motoko, the Internet Computer, and DAOs.
 
-You can access the playlist [here](https://www.youtube.com/watch?v=gHzrssylmh0&list=PLl8VueN-2q18cOvhb1pDPPAUbUHY9z-CU).
+Access the playlist [here](https://www.youtube.com/watch?v=gHzrssylmh0&list=PLl8VueN-2q18cOvhb1pDPPAUbUHY9z-CU).
 
 ## Credits ✏️
 
