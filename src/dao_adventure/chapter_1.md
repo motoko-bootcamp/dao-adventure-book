@@ -38,7 +38,7 @@ To complete this Chapter, we suggest browsing the following resources:
 6. Define a mutable variable goals of type `Buffer<Text>` will store the goals of your DAO.
 7. Implement the `addGoal` function, this function takes a goal of type `Text` as a parameter, adds a new goal to the goals buffer and returns nothing.
 8. Implement the `getGoals` query function, this function takes no parameters and returns all the goals of your DAO in an Array.
-9. Complete **Chapter 1** by deploying your canister and submitting your ID on [motokobootcamp.com].
+9. Complete **Chapter 1** by deploying your canister and submitting your ID on [motokobootcamp.com](https://www.motokobootcamp.com/).
 
 > To deploy your application `dfx deploy --playground chapter_1`.
 

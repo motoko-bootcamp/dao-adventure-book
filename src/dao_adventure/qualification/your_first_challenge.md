@@ -1,12 +1,12 @@
 # Your first challenge
 **"So you want to join the Motoko Bootcamp?"** 
 Before joining us, you need to prove your worth by building and deploying 
-your first application on the **Internet Computer**... let's do it.
+your first application on the **Internet Computer**... let's do it!
 
 ## Setting up your environment
 
 ### Gitpod 
-**GitPod** is a cloud-based development environment. We will use it to access and edit the project files directly your web browser. That way you don’t have to install any additional software or worry about setting up your development environment locally.
+**GitPod** is a cloud-based development environment. We will use it to access and edit the project files directly your web browser. That way you don’t have to install any additional software or worry about setting up your development environment locally. Get started with just one click 👇
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/motoko-bootcamp/dao-adventure)
 

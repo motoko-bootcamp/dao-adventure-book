@@ -51,7 +51,7 @@ There are 2 types of proposals:
 The initial setup of the DAO should include an initial mentor to ensure that your DAO is operational:
 - Mentor:
     - Name: `motoko_bootcamp`
-    - Associated Principal: `gth2f-eyaaa-aaaaj-qa2pq-cai`
+    - Associated Principal: `nkqop-siaaa-aaaaj-qa3qq-cai`
 
 > You can decide to hardcode the initial setup or create an external one that will be executed canister upon deployment.
 
