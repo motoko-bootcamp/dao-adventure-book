@@ -26,14 +26,7 @@ DAOs are not the only thing you can build with Motoko. You can build anything yo
 - Build a decentralized exchange or a decentralized marketplace.
 - Build a game.
 
-There are no limits to what you can build. Only your imagination.
-Here are some inspirations from previous students:
-
-### Option 3: Join a team and contribute to an existing project 🤝
-
-In the Motoko Bootcamp Discord, we have a section dedicated to builders. This is where you can find projects that are building in the open. Some of them are looking for contributors.
-
-- Take a look the [Builders](https://discord.gg/YVTpqfaFwC) channel on Discord.
+Your imagination is the only limit to what you can build on #ICP.
 
 ## Get involved in the ecosystem 🌱
 
@@ -73,7 +66,7 @@ Additionally, DFINITY has announced a specific $5 million program to support the
 
 DFINITY also offers a grant program for [educational and community initiatives](https://dfinity.org/community-grants). If you have an idea for a hackathon, workshop, or other community event, you can apply for a grant to secure funding.
 
-Note: Please make sure to mention that you were referred by the Motoko Bootcamp when applying for a grant. Additionally, we are available to assist you with your grant application.
+Please make sure to mention that you were referred by the Motoko Bootcamp when applying for a grant - that helps our reputation!
 
 ### Get involved and help us write the next chapter of Motoko Bootcamp 🏕️
 
