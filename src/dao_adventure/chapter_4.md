@@ -22,7 +22,10 @@ Today, for simplicity, we'll set up a basic, non-realistic voting system that me
 - Any approved proposal should be automatically executed by the DAO.
 
 ## Resources
-WIP
+To complete this Chapter, we suggest browsing the following resources:
+
+<li><a href="https://internetcomputer.org/docs/current/motoko/main/pattern-matching" target="_blank">Pattern matching</a></li>
+
 
 ## Tasks
 

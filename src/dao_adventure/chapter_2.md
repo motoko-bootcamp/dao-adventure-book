@@ -11,7 +11,18 @@ The key element of any DAO is its community. This community unites over shared i
 Today, we won't focus on building the community itself (this could take months). Instead, we'll concentrate on the technical side, setting up a system to enroll members into our application and keep track of some basic information about them.
 
 ## Resources
-WIP
+To complete this Chapter, we suggest browsing the following resources:
+
+<ul>
+  <li><a href="https://nnri3-7qaaa-aaaaj-qa3qa-cai.icp0.io/motoko_theory/chapter-6/CHAPTER-6.html" target="_blank">Lesson 6 - Data structures</a></li>
+  <li><a href="https://nnri3-7qaaa-aaaaj-qa3qa-cai.icp0.io/motoko_theory/chapter-7/CHAPTER-7.html" target="_blank">Lesson 7 - Non primitive types</a></li>
+  <li><a href="https://nnri3-7qaaa-aaaaj-qa3qa-cai.icp0.io/motoko_theory/chapter-8/CHAPTER-8.html" target="_blank">Lesson 8 - Advanced types</a></li>
+  <li><a href="https://nnri3-7qaaa-aaaaj-qa3qa-cai.icp0.io/motoko_theory/chapter-9/CHAPTER-9.html" target="_blank">Lesson 9 - Handling errors</a></li>
+  <li><a href="https://internetcomputer.org/docs/current/motoko/main/base/HashMap" target="_blank">HashMap module</a></li>
+  <li><a href="https://internetcomputer.org/docs/current/motoko/main/base/Result" target="_blank">Result module</a></li>
+  <li><a href="https://internetcomputer.org/docs/current/motoko/main/base/Iter" target="_blank">Iter module </a></li>
+</ul>
+
 
 ## Tasks
 > To complete this project - you need to make use of the `HashMap` and `Result` library in Motoko. Make sure that you've read the corresponding chapter.

@@ -54,7 +54,7 @@ Are you looking for a job in Web3? Make sure to check out TalentDB - a recruitin
 
 <p align="center"> <img src="./assets/grant_program.png"  style="border: 1px solid black; width: 500px;"/> </p>
 
-DFINITY operates a [developer grant program](https://dfinity.org/grants) to support those building on the Internet Computer platform. If you have an idea and want to develop on the IC, you can request funding, which can range from $5,000 to $100,000 (though first-time applicants are unlikely to receive $100,000). The grant program focuses on the following areas:
+DFINITY operates a [developer grant program](https://dfinity.org/grants) to support those building on the Internet Computer platform. If you have an idea and want to develop on the IC, you can request funding, which can range from $5,000 to $100,000. The grant program focuses on the following areas:
 
 - Canister Development Kits (CDKs) & Agents.
 - Developer Tooling (such as IDEs, debuggers, and logging libraries).

@@ -134,6 +134,3 @@ To put it short - anything that you can modify in your the state of your caniste
 
 
 > For a complete overview of all the shared types, [refer to the Motoko Book](https://web3.motoko-book.dev/internet-computer-programming-concepts/async-data/shared-types.html?highlight=Shared%20types#shared-types).
-
-## 🔃 Recursive types
-Read [this section](https://web3.motoko-book.dev/advanced-types/recursive-types.html) of the Motoko Book.

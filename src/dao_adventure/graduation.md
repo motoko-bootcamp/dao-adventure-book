@@ -66,6 +66,11 @@ You'll need to use the Faucet canister to:
 - Mint tokens when a new member joins your DAO.
 - Burn tokens when a new proposal is created.
 
+## Resources
+To complete this Chapter, we suggest browsing the following resources:
+
+<li><a href="https://nnri3-7qaaa-aaaaj-qa3qa-cai.icp0.io/motoko_theory/chapter-13/CHAPTER-13.html" target="_blank">Lesson 11 - Intercanister calls </a></li>
+
 ## Submission
 As with previous chapters, you'll need to submit your project on the [Submission website](https://www.motokobootcamp.com/). For that project, **you need to submit the canister ID of the DAO canister.**
 

@@ -12,7 +12,12 @@ On the Internet Computer, we can create a token by creating a canister that stor
 
 
 ## Resources
-WIP
+To complete this Chapter, we suggest browsing the following resources:
+
+<ul>
+  <li><a href="https://internetcomputer.org/docs/current/motoko/main/base/Option" target="_blank">Option module </a></li>
+  <li><a href="https://internetcomputer.org/docs/current/motoko/main/base/Option" target="_blank">Principal module </a></li>
+</ul>
 
 ## Tasks
 1. Define the `ledger` variable. This variable will be used to store the balance of each user. The keys are of type `Principal` and the values of type `Nat`. You can use the `HashMap` or `TrieMap` types to implement this variable.

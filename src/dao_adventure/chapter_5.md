@@ -12,7 +12,9 @@ Build the website from the Motoko side by implementing the http_request query me
 Actually, these two approaches end up being similar. This is because the asset canister essentially uses the http_request method behind the scenes to serve web content but abstract away this complexity for the developer.
 
 ## Resources
-WIP
+To complete this Chapter, we suggest browsing the following resources:
+
+<li><a href="https://nnri3-7qaaa-aaaaj-qa3qa-cai.icp0.io/motoko_theory/chapter-13/CHAPTER-13.html" target="_blank">Lesson 13 - Serving a webpage </a></li>
 
 ## Tasks
 1. Select a logo for your DAO. You will need to find a logo that is available as an SVG file. You can use a website like [FlatIcon](https://www.flaticon.com/fr/).

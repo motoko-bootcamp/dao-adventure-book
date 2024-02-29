@@ -13,10 +13,19 @@ Whether you are passionate about Web3, AI, music, economy, open source, 3D print
 Today, we're going to outline a vision, choose a name, and set goals for our DAO. If you have an existing project, think about adding a community aspect to it to form our DAO. If you don't have a project, think about any club you've liked or ever wanted to join. We'll use these to create our DAO.
 
 ## Resources
-WIP
+To complete this Chapter, we suggest browsing the following resources:
+
+<ul>
+  <li><a href="https://nnri3-7qaaa-aaaaj-qa3qa-cai.icp0.io/motoko_theory/chapter-1/CHAPTER-1.html" target="_blank">Lesson 1 - Fundamental concepts</a></li>
+  <li><a href="https://nnri3-7qaaa-aaaaj-qa3qa-cai.icp0.io/motoko_theory/chapter-2/CHAPTER-2.html" target="_blank">Lesson 2 - Programming concepts</a></li>
+  <li><a href="https://nnri3-7qaaa-aaaaj-qa3qa-cai.icp0.io/motoko_theory/chapter-3/CHAPTER-3.html" target="_blank">Lesson 3 - Primitives types</a></li>
+  <li><a href="https://nnri3-7qaaa-aaaaj-qa3qa-cai.icp0.io/motoko_theory/chapter-4/CHAPTER-4.html" target="_blank">Lesson 4 - Candid</a></li>
+  <li><a href="https://internetcomputer.org/docs/current/motoko/main/base/Buffer" target="_blank">Buffer</a></li>
+</ul>
+
 
 ## Tasks
-> To complete this project - you need to make use of the Buffer library in Motoko. Make sure that you've read the corresponding chapter.
+> To complete this project - you need to make use of the Buffer library in Motoko. Make sure that you've read the corresponding documentation.
 
 1. Define an immutable variable `name` of type `Text` that represents the name of your DAO.
 2. Define a mutable variable `manifesto` of type `Text` that represents the manifesto of your DAO.

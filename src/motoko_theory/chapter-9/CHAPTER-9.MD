@@ -98,7 +98,8 @@ public func unwrap<T>(option : ?T) : T {
     }
 };
 ```
-> Traps have a very useful feature: if a function traps, the canister's state will be reverted. This will be discussed further in the context of [inter-canister calls](../chapter-11/CHAPTER-11.MD#commit-point-and-rollbacks).
+> Traps have a very useful feature: if a function traps, the canister's state will be reverted. This will be discussed further in the context of [inter-canister calls](https://nnri3-7qaaa-aaaaj-qa3qa-cai.icp0.io/motoko_theory/chapter-11/CHAPTER-11.html).
+
 ## 🔀 Handling asynchronous errors with the `Error` type and try/catch.
 > In this section the term **error** refers specifically to any value of type `Error`.
 
