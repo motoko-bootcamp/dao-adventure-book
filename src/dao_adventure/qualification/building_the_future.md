@@ -2,7 +2,7 @@
 
 Before diving into the next part of this course, let's understand why **DAOs**, **the Internet Computer** and **Motoko** represent a unique opportunity for you to shape the future and participate in building a new society.
 
-## The Internet Computer: when crypto meet computing.
+## The Internet Computer: crypto x computing.
 
 The Internet Computer is a decentralized cloud. Traditional clouds are owned and operated by a single company (Amazon Web Services, Google Cloud, Microsoft Azure...) - the Internet Computer is owned and operated by a DAO - the Network Nervous System (NNS).
 
@@ -49,6 +49,13 @@ For an application to be considered decentralized, it generaly needs to fulfill 
 > Simply because an application runs on a blockchain doesn't mean it is decentralized.
 
 There is no strict line between what is decentralized and what is not. Most applications and DAOs run somewhat decentralized with still some centralized components. The future looks more and more decentralized, but the path to decentralization is not an obvious one.
+
+For instance, [OpenChat](https://oc.app/) is a decentralized application:
+
+- The code for this project is [open source](https://github.com/open-chat-labs/open-chat), allowing anyone to confirm that the version running on the Internet Computer matches what's been shared on GitHub.
+- The community has full access to review and audit the entire codebase and infrastructure.
+- Governance of the application is handled by the [OpenChat DAO](https://dashboard.internetcomputer.org/sns/3e3x2-xyaaa-aaaaq-aaalq-cai), ensuring a decentralized control structure.
+- Both the application and its user interface are hosted entirely on the Internet Computer.
 
 ## The DAO Revolution
 On the **Internet Computer**, canisters can govern other canisters. Notably, canisters can be used to upgrade the code of other canisters - in a fully transparent manner.

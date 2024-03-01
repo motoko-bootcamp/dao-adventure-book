@@ -1,19 +1,22 @@
 # Your first challenge
-**"So you want to join the Motoko Bootcamp?"** 
-Before joining us, you need to prove your worth by building and deploying 
+
+**"So you want to join the Motoko Bootcamp?"**
+Before joining us, you need to prove your worth by building and deploying
 your first application on the **Internet Computer**... let's do it!
 
 ## Setting up your environment
 
-### Gitpod 
+### Gitpod
+
 **GitPod** is a cloud-based development environment. We will use it to access and edit the project files directly your web browser. That way you don’t have to install any additional software or worry about setting up your development environment locally. Get started with just one click 👇
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/motoko-bootcamp/dao-adventure)
 
-### Login 
+### Login
+
 To use **GitPod**, you'll need to authenticate with one of the following platforms:
 
-- **GitLab** 
+- **GitLab**
 - **GitHub**
 - **Bitbucket**
 
@@ -23,8 +26,9 @@ To use **GitPod**, you'll need to authenticate with one of the following platfor
 
 With the free plan, we have up to 50 hours per month. This should be more than enough to complete the course.
 
-### Create your workspace 
-To continue you need to select the options for your workspace: 
+### Create your workspace
+
+To continue you need to select the options for your workspace:
 
 - The repository
 - The IDE
@@ -32,13 +36,14 @@ To continue you need to select the options for your workspace:
 
 <img src="../assets/option_workspace.png">
 
-Continue with the following options: 
+Continue with the following options:
 
 - The repository should be `dao-adventure`
 - The IDE **VSCode** (Browser)
 - The **standard** configuration.
 
-### Setting up the workspace 
+### Setting up the workspace
+
 After installation, your files appear on the left, and the terminal displays "**Installation complete. Please close this terminal and open a new one to finalize the setup and begin your project.**" Open a new terminal by clicking "**+**" and close the current one.
 
 <img src="../assets/setup_workspace.png">
@@ -47,7 +52,7 @@ Verify the workspace setup by running `dfx --version` in the newly open terminal
 
 <img src="../assets/new_workspace.png">
 
-> Facing issues when setting up the workspace? 
+> Facing issues when setting up the workspace?
 
 1. Deactivate your browser extensions. For instance, we've identified the [Plug wallet](https://twitter.com/plug_wallet) extension as causing issues.
 2. Switch to the **Incognito Mode**.
@@ -55,9 +60,9 @@ Verify the workspace setup by running `dfx --version` in the newly open terminal
 4. Empty your cache and refresh the page.
 5. Reach out directly on our [feedback channel](https://discord.gg/vTcwUdUwTf).
 
-## Your first challenge 
+## Your first challenge
 
-Navigate to the folder `chapters/qualification/challenge` and open the `main.mo` file 
+Navigate to the folder `chapters/qualification/challenge` and open the `main.mo` file
 
 <img src="../assets/motoko_workspace.png">
 
@@ -65,12 +70,11 @@ This is our first Motoko file, let's dive in!
 
 ### Writing a motivation letter
 
-> A motivation letter, often known as a "statement of purpose," is a personalized document detailing an individual's aspirations, qualifications, and reasons for wanting to join a particular program or institution. 
+> A motivation letter, often known as a "statement of purpose," is a personalized document detailing an individual's aspirations, qualifications, and reasons for wanting to join a particular program or institution.
 
 This application will symbolically represent a **Motivation Letter**. You're not just creating an app; you're stepping into the transformative world of the Internet Computer.
 
-
-### Demo 
+### Demo
 
 To illustrate the next sections let's define a simple `actor Counter` - the code for this canister can be found in `chapters/qualification/demo/` folder.
 
@@ -81,15 +85,15 @@ actor Counter {
 
 
     public func setCounter(newCounter : Nat) : async () {
-        counter := newCounter; // We assign a new value to the counter variable based on the provided argument 
+        counter := newCounter; // We assign a new value to the counter variable based on the provided argument
         return;
     };
 
     public func incrementCounter() : async () {
         counter += 1; // We increment the counter by one
-        return; 
+        return;
     };
-    
+
     public query func getCounter() : async Nat {
         return counter;
     };
@@ -105,6 +109,7 @@ actor {
 
 }
 ```
+
 An **actor** is how a **canister** is defined in **Motoko**. This term comes from the [Actor model](https://doc.akka.io/docs/akka/current/typed/guide/actors-intro.html) - a theory on how to design systems that can handle multiple tasks concurrently.
 
 Think of an **actor** as a small robot that can receive messages, do some work, and then send messages to other **actors**. **Actors** can also instantiate new **actors**. All the **actors** talk to each other by sending messages but they can't access the state of each other directly.
@@ -120,6 +125,7 @@ actor Counter {
 ```
 
 ### Variables and Types
+
 Inside the body of the actor, we can define variables. In Motoko, variables are grouped into two categories: immutable and mutable.
 
 - Immutable variables are variables that cannot be changed after they have been assigned a value. The `let` keyword is used to define an immutable variable in Motoko.
@@ -136,7 +142,7 @@ let message : Text = "Motoko Bootcamp will become the best Web3 bootcamp in the 
 var counter : Nat = 0;
 ```
 
-> Tast #2 -  Define a mutable variable `message` of type `Text`. Initialize it with an explanation of what you want to build with Motoko.
+> Tast #2 - Define a mutable variable `message` of type `Text`. Initialize it with an explanation of what you want to build with Motoko.
 
 In Motoko, every variable has a specific type. This is a crucial aspect of Motoko because it helps avoid mistakes by ensuring that variables of different types cannot be combined or confused.
 
@@ -144,7 +150,8 @@ In Motoko, every variable has a specific type. This is a crucial aspect of Motok
 
 The `:` specifies a variable's type. In our `Counter` example, we use `Text` for text strings and `Nat` for natural numbers (0, 1, 2, 3...), both built-in types in **Motoko**.
 
-### Functions 
+### Functions
+
 > In this project, we use only public functions accessible by anyone as part of the canister's public interface. Later, we'll cover how to define private functions.
 
 Just like we had two types of variables - in Motoko we have two types of functions:
@@ -152,7 +159,8 @@ Just like we had two types of variables - in Motoko we have two types of functio
 > The Counter is live on the Internet Computer, allowing you to interact with it via its [Candid UI]().
 
 #### Update
-Update calls modify a canister's state and require consensus from all nodes, resulting in a 2-3 second delay. Update  calls are used in these instances:
+
+Update calls modify a canister's state and require consensus from all nodes, resulting in a 2-3 second delay. Update calls are used in these instances:
 
 - Posting on social media, such as [DSCVR](https://dscvr.one/).
 - Sending a message on a messaging application, such as [OpenChat](https://oc.app/).
@@ -162,14 +170,15 @@ In Motoko, every function is an update function by default, unless specified oth
 
 ```motoko
 public func setCounter(newCounter : Nat) : async () {
-    counter := newCounter; // We assign a new value to the counter variable based on the provided argument 
+    counter := newCounter; // We assign a new value to the counter variable based on the provided argument
     return;
 };
 ```
 
-> Task #3 -  Create an update function `setMessage` that accepts a `newMessage` argument of type Text and updates the message variable with the provided argument's value. 
+> Task #3 - Create an update function `setMessage` that accepts a `newMessage` argument of type Text and updates the message variable with the provided argument's value.
 
 ### Query
+
 Query calls, ideal for reading data without altering state, are fast (about 200ms) since a single node can respond. However, they're less secure due to the risk of false information from malicious nodes. Query calls are used in scenarios like:
 
 - Reading an article on [Nuance](https://nuance.xyz/).
@@ -184,18 +193,20 @@ public query func getCounter() : async Nat {
 };
 ```
 
-> Task #4 -  Define a `query` function `getMessage`. This function returns the value of the `message` variable.
+> Task #4 - Define a `query` function `getMessage`. This function returns the value of the `message` variable.
 
-> Task #5 -  Define a `query` function `getName`. This function returns the value of the `name` variable.
+> Task #5 - Define a `query` function `getName`. This function returns the value of the `name` variable.
 
 ### Deploying a Canister
+
 To deploy a canister, we will use the `dfx` command line tool.
 
 ```bash
-dfx deploy --playground counter
+dfx deploy --playground qualification
 ```
 
-This command deploys the Counter canister to the **Internet Computer** using the `dfx.json` file. Within `dfx.json`, we specify the canister's name and the main Motoko's entry point. The entry point is the **Motoko** file hosting the `actor` along with public functions, forming the canister's public interface.
+This command deploys your canister to the **Internet Computer** using the `dfx.json` file. Within `dfx.json`, we specify the canister's name and the main Motoko's entry point. The entry point is the **Motoko** file hosting the `actor` along with public functions, forming the canister's public interface.
+
 ```json
 {
   "canisters": {
@@ -207,9 +218,18 @@ This command deploys the Counter canister to the **Internet Computer** using the
 }
 ```
 
-## Your turn! 
+## Your turn!
 
->  Task #6 -  To complete your qualification, deploy your canister and submit your ID on [motokobootcamp. com](https://www.motokobootcamp.com/)
+> Task #6 - To complete your qualification, deploy your canister and submit your ID on [motokobootcamp. com](https://www.motokobootcamp.com/)
 
-Each canister deployed on the **Internet Computer** has an unique identifier called **Canister ID**. You need to identify the canister ID of your deployed application and submit it. 
+Each canister deployed on the **Internet Computer** has an unique identifier called **Canister ID**. You need to identify the canister ID of your deployed application and submit it.
 
+## Rewards
+
+After your Qualification project is submitted and verified, you'll unlock your first reward! Head over to the `reward` tab to access them it.
+
+<img src="../assets/rewards.png">
+
+Your first reward unlocks access to the official **Motoko Bootcamp OpenChat** group! Welcome.
+
+<img src="../assets/openchat_mbc.png">
