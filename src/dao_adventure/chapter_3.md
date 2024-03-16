@@ -4,14 +4,14 @@
 
 > In this chapter we implement a token for our DAO. This is an essential step to make our project economically sustainable. A mistake commonly made when creating a DAO is to believe that having a token is enough to guarantee a solid business strategy and consistent income for the organization - this is not the case.
 
-## Introduction 
+## Introduction
 
 Creating and distributing a token is an essential step in any DAO. A token enables the creation of a market, enabling investors to invest in the DAO, community members to receive rewards for their contributions, and usually facilitates governance by allowing token holders to vote on key decisions and initiatives. Today, your mission, is to implement the code for a token.
 
 On the Internet Computer, we can create a token by creating a canister that stores balances and manage transfer. Assuming the canister is not controlled we can consider the token to be safe, trustless and decentralized. In this project you will implement the code for a simple token. If you are interested in learning more about tokens, you can read the [ICRC_1 standard](https://internetcomputer.org/docs/current/developer-docs/integrations/icrc-1).
 
-
 ## Resources
+
 To complete this Chapter, we suggest browsing the following resources:
 
 <ul>
@@ -20,6 +20,7 @@ To complete this Chapter, we suggest browsing the following resources:
 </ul>
 
 ## Tasks
+
 1. Define the `ledger` variable. This variable will be used to store the balance of each user. The keys are of type `Principal` and the values of type `Nat`. You can use the `HashMap` or `TrieMap` types to implement this variable.
 2. Implement the `tokenName` function, this function takes no parameters and returns the name of your token as a `Text`.
 
@@ -41,3 +42,5 @@ To complete this Chapter, we suggest browsing the following resources:
 ## Video
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dX3c5-YcNi4?si=dc8Le4njcr_wULds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" style="display: block; margin-left: auto; margin-right: auto;"></iframe>
+
+> ⚠️ Please be aware: the repository displayed in the video may not match the one you're working with, due to recent updates we've made to the repository which have not been reflected in the video. However, the core code should remain similar.

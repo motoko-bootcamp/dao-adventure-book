@@ -11,6 +11,7 @@ The key element of any DAO is its community. This community unites over shared i
 Today, we won't focus on building the community itself (this could take months). Instead, we'll concentrate on the technical side, setting up a system to enroll members into our application and keep track of some basic information about them.
 
 ## Resources
+
 To complete this Chapter, we suggest browsing the following resources:
 
 <ul>
@@ -23,29 +24,36 @@ To complete this Chapter, we suggest browsing the following resources:
   <li><a href="https://internetcomputer.org/docs/current/motoko/main/base/Iter" target="_blank">Iter module </a></li>
 </ul>
 
-
 ## Tasks
+
 > To complete this project - you need to make use of the `HashMap` and `Result` library in Motoko. Make sure that you've read the corresponding chapter.
 
 To help you get started, we've defined different types in [main.mo]():
 
 - A new type `Member` to represent the members of your DAO.
+
 ```motoko
 type Member = {
     name: Text;
     age : Nat;
 };
 ```
+
 - A new type `Result` that we've imported from the **Result** library. This type will be used to return potential errors from your functions.
+
 ```motoko
 type Result<A,B> = Result.Result<A,B>;
 ```
+
 - A type `HashMap` that we've imported from the **HashMap** library. This type will be used to store the members of your DAO.
+
 ```motoko
 type HashMap<K,V> = HashMap.HashMap<K,V>;
 ```
+
 1. Define an immutable variable members of type `Hashmap<Principal,Member>` that will be used to store the members of your DAO.
-> You might be wondering why we're using an immutable variable in this context, especially when we plan to add members to the data structure. The reason for this choice is that we are using a HashMap, and our intention is not to change the reference to the HashMap itself, but rather to modify the content within the HashMap.
+
+   > You might be wondering why we're using an immutable variable in this context, especially when we plan to add members to the data structure. The reason for this choice is that we are using a HashMap, and our intention is not to change the reference to the HashMap itself, but rather to modify the content within the HashMap.
 
 2. Implement the `addMember` function, this function takes a `member` of type `Member` as a parameter, adds a new member to the `members` HashMap. The function should check if the caller is already a member. If that's the case use a `Result` type to return an error message.
 3. Implement the `getMember` query function, this function takes a `principal` of type `Principal` as a parameter and returns the corresponding member. You will use a `Result` type for your return value.
@@ -60,3 +68,5 @@ type HashMap<K,V> = HashMap.HashMap<K,V>;
 ## Video
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8TVEVfPDJnw?si=dc8Le4njcr_wULds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" style="display: block; margin-left: auto; margin-right: auto;"></iframe>
+
+> ⚠️ Please be aware: the repository displayed in the video may not match the one you're working with, due to recent updates we've made to the repository which have not been reflected in the video. However, the core code should remain similar.

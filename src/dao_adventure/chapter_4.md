@@ -5,6 +5,7 @@
 > In this chapter we implement a voting system. A voting system enables the community to take important decisions together on the future of the DAO. Governance is a complex area and many different type of governance model could be implemented depending on the need of the organization.
 
 ## Introduction
+
 Decentralized organizations are often critized for they lack of efficiency. A common misconception is that all DAO decisions require a vote from every member. This is both inefficient, frustrating, and unnecessary. The secret of DAOs lies in the subtle balance between efficiency, pragmastim and transparency. <br/>
 
 Organizations with different purposes will likely require different types of governance.
@@ -22,10 +23,10 @@ Today, for simplicity, we'll set up a basic, non-realistic voting system that me
 - Any approved proposal should be automatically executed by the DAO.
 
 ## Resources
+
 To complete this Chapter, we suggest browsing the following resources:
 
 <li><a href="https://internetcomputer.org/docs/current/motoko/main/pattern-matching" target="_blank">Pattern matching</a></li>
-
 
 ## Tasks
 
@@ -40,3 +41,5 @@ To complete this Chapter, we suggest browsing the following resources:
 ## Video
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WKxP6gxjaSQ?si=yyjDWrZXCWWhhX7P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" style="display: block; margin-left: auto; margin-right: auto;"></iframe>
+
+> ⚠️ Please be aware: the repository displayed in the video may not match the one you're working with, due to recent updates we've made to the repository which have not been reflected in the video. However, the core code should remain similar.

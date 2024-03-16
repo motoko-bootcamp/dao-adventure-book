@@ -4,8 +4,8 @@
 
 > In this Chapter, we are setting the foundation for your DAO. We will define its name, its objectives, and we will also craft a manifesto describing its guiding principles and vision.
 
-
 ## Introduction
+
 DAOs represent an entirely new way to fuel your dreams. Think about it - this is the first time that anyone can collaborate with the entire world without the need to travel, learn multiple languages or sign any contract - everything happens through the blockchain.
 
 Whether you are passionate about Web3, AI, music, economy, open source, 3D printing or even politic - DAOs have something for you. You need to figure out what and how you to leverage this new technology. Let your imagination go wild, we are at the beginning of a new era. Now is the time to dream big and experiement crazy ideas.
@@ -13,6 +13,7 @@ Whether you are passionate about Web3, AI, music, economy, open source, 3D print
 Today, we're going to outline a vision, choose a name, and set goals for our DAO. If you have an existing project, think about adding a community aspect to it to form our DAO. If you don't have a project, think about any club you've liked or ever wanted to join. We'll use these to create our DAO.
 
 ## Resources
+
 To complete this Chapter, we suggest browsing the following resources:
 
 <ul>
@@ -23,8 +24,8 @@ To complete this Chapter, we suggest browsing the following resources:
   <li><a href="https://internetcomputer.org/docs/current/motoko/main/base/Buffer" target="_blank">Buffer</a></li>
 </ul>
 
-
 ## Tasks
+
 > To complete this project - you need to make use of the Buffer library in Motoko. Make sure that you've read the corresponding documentation.
 
 1. Define an immutable variable `name` of type `Text` that represents the name of your DAO.
@@ -45,3 +46,5 @@ To complete this Chapter, we suggest browsing the following resources:
 ## Video
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Xkr90-923LU?si=yjEVyecY1tMk9zO6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" style="display: block; margin-left: auto; margin-right: auto;"></iframe>
+
+> ⚠️ Please be aware: the repository displayed in the video may not match the one you're working with, due to recent updates we've made to the repository which have not been reflected in the video. However, the core code should remain similar.
