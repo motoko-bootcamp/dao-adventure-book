@@ -1,4 +1,4 @@
-# Chapter 3: Primitive Types in Motoko.
+# Lesson 3: Primitive Types in Motoko.
 Primitive types are fundamental core data types that are not composed of more fundamental types. <br/>
 
 Primitive types are all the types that do not need to be imported before they can be used in type annotation.
