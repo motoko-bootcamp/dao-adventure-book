@@ -1,4 +1,4 @@
-# Chapter 1: Fundamental concepts.
+# Lesson 1: Fundamental concepts.
 ##  What is a canister?
 There is one word you absolutely need to master from this entire week. Are you ready for it? 
 It's... 🥁... **CANISTER**! 
