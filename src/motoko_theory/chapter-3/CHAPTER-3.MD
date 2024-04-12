@@ -32,7 +32,7 @@ let a : Nat = 1 + 1;    // 2
 ```motoko
 let a : Nat = 10 - 2;   // 8
 ```
-> Be careful with substractions. `Nat` only plays with the positive numbers. If the result of the subtraction is less than zero, it won't fit. The value will no longer be of the `Nat` type and that could cause trouble if your program is expecting a value of the `Nat` type. 
+> Be careful with subtractions. `Nat` only plays with the positive numbers. If the result of the subtraction is less than zero, it won't fit. The value will no longer be of the `Nat` type and that could cause trouble if your program is expecting a value of the `Nat` type. 
 - Multiplication: you can multiply two numbers using the multiplication operator `*`
 ```motoko
 let a : Nat = 10 * 10;  // 100
