@@ -1,4 +1,4 @@
-# Chapter 4: Candid the language of the Internet Computer.
+# Lesson 4: Candid the language of the Internet Computer.
 ## Why do we need Candid? 
 Let's imagine the following situation:
 
