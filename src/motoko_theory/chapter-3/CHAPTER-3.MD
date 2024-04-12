@@ -185,7 +185,7 @@ Char.isAlphabetic('|'); // false
 let pi = 3.14;
 let e = 2.71;
 ```
-If you want to use `Float` for whole numbers, you need to add the type descriptor otherwise they would automatically be casted to `Ìnt` or `Nat`. 
+If you want to use `Float` for whole numbers, you need to add the type descriptor otherwise they would automatically be casted to `Int` or `Nat`. 
 ```motoko
 let f : Float = 2;
 let n = 2;  // Automatically casted to type Nat
