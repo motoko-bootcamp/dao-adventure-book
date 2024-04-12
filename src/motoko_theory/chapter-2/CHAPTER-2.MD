@@ -1,4 +1,4 @@
-# Chapter 2: Common programming concepts.
+# Lesson 2: Common programming concepts.
 ## 📦 Variables 
 A variable is a value that has an arbitrary name, defined by a declaration. <br/>
 In Motoko, variables can be declared using either the `let` or `var` keyword, followed by the assignment operator `=`
