@@ -157,7 +157,7 @@ actor {
     };
 };
 ```
-> Notice how when we iterate `letter` is a `Char` and we need to convert it back to `Text` to use `Debug.print`.
+> Notice how when we iterate `letter` is a `Char` and we need to convert it back to `Text` to use `Debug.print` (learn [more here](https://internetcomputer.org/docs/current/tutorials/developer-journey/level-1/1.2-motoko-lvl1/#printing-values)).
 The `Char` module also contains a few functions that can be used to test properties of characters:
 - `isDigit`
 ```motoko
