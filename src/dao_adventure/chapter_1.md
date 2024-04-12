@@ -36,12 +36,12 @@ To complete this Chapter, we suggest browsing the following resources:
 3. Implement the `getName` query function, this function takes no parameters and returns the name of your DAO.
 4. Implement the `getManifesto` query function, this function takes no parameters and returns the manifesto of your DAO.
 5. Implement the `setManifesto` function, this function takes a newManifesto of type `Text` as a parameter, updates the value of manifesto and returns nothing.
-6. Define a mutable variable goals of type `Buffer<Text>` will store the goals of your DAO.
+6. Define a mutable variable goals of type `Buffer<Text>` will store the goals of your DAO. You will have to import it via `import Buffer "mo:base/Buffer` [learn more here](https://internetcomputer.org/docs/current/motoko/main/base/Buffer/).
 7. Implement the `addGoal` function, this function takes a goal of type `Text` as a parameter, adds a new goal to the goals buffer and returns nothing.
 8. Implement the `getGoals` query function, this function takes no parameters and returns all the goals of your DAO in an Array.
 9. Complete **Chapter 1** by deploying your canister and submitting your ID on [motokobootcamp.com](https://www.motokobootcamp.com/).
 
-> To deploy your application `dfx deploy --playground chapter_1`.
+> To deploy your application `dfx deploy --playground chapter_1` (remember to paste this command in a new terminal).
 
 ## Video
 
