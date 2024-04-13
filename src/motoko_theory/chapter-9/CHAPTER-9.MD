@@ -83,7 +83,7 @@ assert(2 == 1);  // always traps
 assert n % 2 == 0; // traps only when n not even
 ```
 ```motoko
-assert(true) // never traps
+assert(true); // never traps
 ```
 ### When should I use a Trap?
 Traps immediately stop the current task (i.e message) being executed by a canister, but they don't prevent the canister from handling future requests. Traps should be used for unexpected situations. For example, the `unwrap` function below:
@@ -94,7 +94,7 @@ public func unwrap<T>(option : ?T) : T {
         case (?value)
             value;
         case null
-            Debug.trap("Value is null - impossible to unwrap")
+            Debug.trap("Value is null - impossible to unwrap");
     }
 };
 ```
