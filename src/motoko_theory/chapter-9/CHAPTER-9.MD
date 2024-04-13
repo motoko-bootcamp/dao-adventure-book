@@ -116,12 +116,12 @@ import Error "mo:base/Error";
 actor {
   // Misplaced throw 
   func throwErrorSync() : () {
-    throw Error.reject("This will not work")
+    throw Error.reject("This will not work");
   };
 
   // Can throw an error in a shared/public function - this error will be consumed by another canister/user calling this function.
   public func throwErrorAsync() : async () {
-    throw Error.reject("This will not work")
+    throw Error.reject("This will not work");
   };
 }
 ```
@@ -138,7 +138,7 @@ Assuming this is our canister A - deployed with canister id:
 ```motoko
 actor {
     public func foo() : async Text {
-        return "foo"
+        return "foo";
     };   
 }
 ```
@@ -155,7 +155,7 @@ actor {
             let foo = await canisterA.foo()
             return foo;
         } catch (e) {
-            return "An error occured when calling canister A".
+            return "An error occured when calling canister A";
         };
     };   
 }
