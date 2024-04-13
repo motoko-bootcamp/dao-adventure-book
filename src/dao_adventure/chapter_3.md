@@ -22,7 +22,7 @@ To complete this Chapter, we suggest browsing the following resources:
 ## Tasks
 
 1. Define the `ledger` variable. This variable will be used to store the balance of each user. The keys are of type `Principal` and the values of type `Nat`. You can use the `HashMap` or `TrieMap` types to implement this variable.
-2. Implement the `tokenName` function, this function takes no parameters and returns the name of your token as a `Text`.
+2. Create an immutable variable tokenName and implement the `getTokenName` function, this function takes no parameters and returns the name of your token as a `Text`.
 
 > Choose any name you want for your token.
 
