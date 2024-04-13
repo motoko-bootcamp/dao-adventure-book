@@ -52,7 +52,7 @@ func sendMessageToStudent(result : ExamResult) : Text {
 ```
 ### When should I use the Result type?
 Using `Result` to report errors in your API offers a significant benefit: it allows other developers and programs to handle errors predictably. That's why `Result` is often used for expected errors in your program when you want to return a value. `Result` will not impact the normal behavior of the program.
-## 🪤 Trap & assertions
+## 🪤 Trap & assertions.
 A **trap** is a type of error that occurs during the execution of a message and cannot be resolved. The most common causes of traps are:
 - Division by zero.
 ```motoko
