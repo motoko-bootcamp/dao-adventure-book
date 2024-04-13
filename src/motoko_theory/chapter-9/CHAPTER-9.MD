@@ -156,7 +156,7 @@ actor {
             return foo;
         } catch (e) {
             return "An error occured when calling canister A";
-        };
+        }
     };   
 }
 ```
