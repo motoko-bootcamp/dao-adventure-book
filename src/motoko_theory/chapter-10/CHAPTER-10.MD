@@ -47,8 +47,7 @@ With `dfx`, you can access a unique identifier for each identity called **princi
 $ dfx identity get-principal
 2ujkt-fujau-bunuv-gt4b6-2s27j-cv5qi-kddkp-jl7m4-wdj3e-bqdrt-qqe
 ```
-A principal identifies entities interacting with the Internet Computer and is directly derived from the public key. These entities can be users or canisters. Different types of principals include:
-A principal is a public identifier used to identify entities that can interact with the Internet Computer. The principal is derived directly from the public key. These entities are either users or canisters. We distinguish different types of principals:
+A principal identifies entities interacting with the Internet Computer and is directly derived from the public key. These entities can be users or canisters. We distinguish different types of principals:
 - **Self-authenticating IDs** (User): Derived directly from a user's public key, such as your dfx identity's principal. These principals are 29 bytes long.
 - **Opaque IDs** (Canister): A canister's principal is its canister ID, determined automatically based on its subnet and the number of deployed canisters.
 - **Anonymous ID** (Anonymous): The default caller when an unauthenticated user calls functions, such as fetching information from a canister before logging in. The canister recognizes the caller as the Anonymous ID since the user's principal is unknown until login.
