@@ -27,7 +27,7 @@ If we try with the `HashMap` type that we've seen earlier we will encounter an e
 All primitives types are stable:
 - `Nat` 
 - `Text`
-- `Ìnt`
+- `Int`
 - All bounded numbers: `Nat8`, `Nat16`, `Nat32`, `Nat64`, `Int8`, `Int16`, `Int32`, `Int64`.
 - `Float`
 - `Char`
