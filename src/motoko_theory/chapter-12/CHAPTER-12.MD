@@ -175,7 +175,7 @@ actor {
 ```
 > The stable signature of an actor can be generated using the Motoko compiler: [moc](https://internetcomputer.org/docs/current/motoko/main/compiler-ref).
 
-The stable signature is used to automatically check type compability before an upgrade. This is possible by comparing the signature of the new actor with the old one and using some rules based on Candid. For more information, see the [reference section on stable signatures](https://internetcomputer.org/docs/current/motoko/main/upgrades#stable-type-signatures).
+The stable signature is used to automatically check type compatibility before an upgrade. This is possible by comparing the signature of the new actor with the old one and using some rules based on Candid. For more information, see the [reference section on stable signatures](https://internetcomputer.org/docs/current/motoko/main/upgrades#stable-type-signatures).
 ## Metadata section.
 The Motoko compiler embeds the **Candid interface** and **stable signature** of a canister as canister metadata, recorded in additional Wasm custom sections of a compiled binary.
 
