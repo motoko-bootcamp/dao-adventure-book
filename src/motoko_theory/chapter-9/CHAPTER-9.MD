@@ -83,7 +83,7 @@ assert(2 == 1);  // always traps
 assert n % 2 == 0; // traps only when n not even
 ```
 ```motoko
-assert(true) // never traps
+assert(true); // never traps
 ```
 ### When should I use a Trap?
 Traps immediately stop the current task (i.e message) being executed by a canister, but they don't prevent the canister from handling future requests. Traps should be used for unexpected situations. For example, the `unwrap` function below:
@@ -94,7 +94,7 @@ public func unwrap<T>(option : ?T) : T {
         case (?value)
             value;
         case null
-            Debug.trap("Value is null - impossible to unwrap")
+            Debug.trap("Value is null - impossible to unwrap");
     }
 };
 ```
@@ -116,12 +116,12 @@ import Error "mo:base/Error";
 actor {
   // Misplaced throw 
   func throwErrorSync() : () {
-    throw Error.reject("This will not work")
+    throw Error.reject("This will not work");
   };
 
   // Can throw an error in a shared/public function - this error will be consumed by another canister/user calling this function.
   public func throwErrorAsync() : async () {
-    throw Error.reject("This will not work")
+    throw Error.reject("This will not work");
   };
 }
 ```
@@ -138,7 +138,7 @@ Assuming this is our canister A - deployed with canister id:
 ```motoko
 actor {
     public func foo() : async Text {
-        return "foo"
+        return "foo";
     };   
 }
 ```
@@ -155,8 +155,8 @@ actor {
             let foo = await canisterA.foo()
             return foo;
         } catch (e) {
-            return "An error occured when calling canister A".
-        };
+            return "An error occured when calling canister A";
+        }
     };   
 }
 ```
