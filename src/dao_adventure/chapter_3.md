@@ -16,7 +16,7 @@ To complete this Chapter, we suggest browsing the following resources:
 
 <ul>
   <li><a href="https://internetcomputer.org/docs/current/motoko/main/base/Option" target="_blank">Option module </a></li>
-  <li><a href="https://internetcomputer.org/docs/current/motoko/main/base/Option" target="_blank">Principal module </a></li>
+  <li><a href="https://internetcomputer.org/docs/current/motoko/main/base/Principal" target="_blank">Principal module </a></li>
 </ul>
 
 ## Tasks
