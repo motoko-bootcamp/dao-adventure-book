@@ -76,7 +76,7 @@ type Vehicle = {
 Each tag can be associated it's own custom type. 
 ```motoko
 type Car = { make : Text; model : Text; year : Nat; color: Text };
-type Moto = { make : Text; model : Text; year : Nat; type : Text };
+type Moto = { make : Text; model : Text; year : Nat; maneuverability : Text };
 type Plane = { make : Text; model : Text; year : Nat; seats : Nat };
 
 type Vehicle = {
