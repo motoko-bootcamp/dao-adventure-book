@@ -50,8 +50,8 @@ let i : Int = -3;
 let j : Int = 5;
 ```
 
-> Since `Int` includes positive and negative whole numbers it includes all value of type `Nat`. We say that `Nat` is a subtype of `Ìnt`.
-`Ìnt` is also an unbounded type and has bounded equivalents that we will cover later (`Int8`, `Int16`, `Int32`, `Int64`).
+> Since `Int` includes positive and negative whole numbers it includes all value of type `Nat`. We say that `Nat` is a subtype of `Int`.
+`Int` is also an unbounded type and has bounded equivalents that we will cover later (`Int8`, `Int16`, `Int32`, `Int64`).
 ## 🚦 Bool.
 A `Bool` is either `true` or `false`. `Bool` stands for boolean and this data type only contains two values.
 ```motoko
@@ -185,7 +185,7 @@ Char.isAlphabetic('|'); // false
 let pi = 3.14;
 let e = 2.71;
 ```
-If you want to use `Float` for whole numbers, you need to add the type descriptor otherwise they would automatically be casted to `Ìnt` or `Nat`. 
+If you want to use `Float` for whole numbers, you need to add the type descriptor otherwise they would automatically be casted to `Int` or `Nat`. 
 ```motoko
 let f : Float = 2;
 let n = 2;  // Automatically casted to type Nat
