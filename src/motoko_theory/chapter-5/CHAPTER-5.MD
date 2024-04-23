@@ -7,9 +7,6 @@ Modules are collections of named variables, functions, and types, each designed 
 
 Unlike the `main.mo` file, which begins with the `actor` keyword, a module starts with the `module` keyword.
 
-
-Contrary to the `main.mo` file we've seen so far that starts with the `actor` keyword a a module starts with the `module` keyword.
-
 ```motoko
 module {
     public func Utils() : async () {
