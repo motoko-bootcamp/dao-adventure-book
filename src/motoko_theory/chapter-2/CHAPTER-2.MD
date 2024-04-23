@@ -214,7 +214,7 @@ switch(x) {
     };
 };
 ```
-In Motoko, it is mandatory to include a `case(_)` statement for every possible input value in a `switch` expression. This is why the case(`_`) pattern is sometimes used as a catch-all case to handle any input value that did not match any of the other cases. The underscore symbol (`_`) is a wildcard that matches any value, so the `case(_)` pattern will match any input value.
+In Motoko, `switch` expression  must cover every possible outcome to ensure the code is valid. When we don't want to list all possible values we can use the special `case(_)` to match any value. By putting it at the end of our code it will match all the possible cases that arent specified before it. The underscore symbol (`_`) is a wildcard that matches any value, so the `case(_)` pattern will match any input value.
 
 The `switch/case` expression is best used with variants.
 
