@@ -1,8 +1,9 @@
 # Chapter 9: Handling errors.
 In Motoko, when something doesn't work as expected, there are various ways to show that an error has occurred. Some methods include:
 - Using the `Result` type.  
-- Throwing error with the `throw` keyword or the `Error` library.
 - Trapping the program. 
+- Throwing error with the `throw` keyword or the `Error` library.
+
 
 In this section we will see different options and learn when to use each one for managing errors effectively.
 ## 🚥 The `Result` type.
