@@ -38,7 +38,7 @@ WebAssembly is a low-level binary format for executing code in multiples environ
 <p align="center"> Write once and deploy on any platform. </p>
 
 - **WebAssembly** is fast. It's a language that is very close to machine language and has been optimised for speed and performance. You can use it for creating complex and intensive applications (Games, simulations, graphic)!
-- **WebAssembly** provides a secure execution environment, by putting the code in a special area called a sandbox. The sandbox makes sure that the program is only able to do things and access resources that have been granted access to and doesn't allow it to access sensitive informaiton. This helps a lot when trying to write secure code or for users to make sure they won't get harmed by the code running on their machine!
+- **WebAssembly** provides a secure execution environment, by putting the code in a special area called a sandbox. The sandbox makes sure that the program is only able to do things and access resources that have been granted access to and doesn't allow it to access sensitive information. This helps a lot when trying to write secure code or for users to make sure they won't get harmed by the code running on their machine!
 
 The only problem with **WebAssembly** is that it's a low-level language and it provides very little abstraction, making it difficult to use for writing complex applications like dApps (decentralized applications). 
 
