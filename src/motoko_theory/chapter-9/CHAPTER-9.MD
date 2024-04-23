@@ -1,8 +1,9 @@
 # Chapter 9: Handling errors.
 In Motoko, when something doesn't work as expected, there are various ways to show that an error has occurred. Some methods include:
 - Using the `Result` type.  
-- Throwing error with the `throw` keyword or the `Error` library.
 - Trapping the program. 
+- Throwing error with the `throw` keyword or the `Error` library.
+
 
 In this section we will see different options and learn when to use each one for managing errors effectively.
 ## 🚥 The `Result` type.
@@ -52,7 +53,7 @@ func sendMessageToStudent(result : ExamResult) : Text {
 ```
 ### When should I use the Result type?
 Using `Result` to report errors in your API offers a significant benefit: it allows other developers and programs to handle errors predictably. That's why `Result` is often used for expected errors in your program when you want to return a value. `Result` will not impact the normal behavior of the program.
-## 🪤 Trap & assertions
+## 🪤 Trap & assertions.
 A **trap** is a type of error that occurs during the execution of a message and cannot be resolved. The most common causes of traps are:
 - Division by zero.
 ```motoko
@@ -83,7 +84,7 @@ assert(2 == 1);  // always traps
 assert n % 2 == 0; // traps only when n not even
 ```
 ```motoko
-assert(true) // never traps
+assert(true); // never traps
 ```
 ### When should I use a Trap?
 Traps immediately stop the current task (i.e message) being executed by a canister, but they don't prevent the canister from handling future requests. Traps should be used for unexpected situations. For example, the `unwrap` function below:
@@ -94,7 +95,7 @@ public func unwrap<T>(option : ?T) : T {
         case (?value)
             value;
         case null
-            Debug.trap("Value is null - impossible to unwrap")
+            Debug.trap("Value is null - impossible to unwrap");
     }
 };
 ```
@@ -116,12 +117,12 @@ import Error "mo:base/Error";
 actor {
   // Misplaced throw 
   func throwErrorSync() : () {
-    throw Error.reject("This will not work")
+    throw Error.reject("This will not work");
   };
 
   // Can throw an error in a shared/public function - this error will be consumed by another canister/user calling this function.
   public func throwErrorAsync() : async () {
-    throw Error.reject("This will not work")
+    throw Error.reject("This will not work");
   };
 }
 ```
@@ -138,7 +139,7 @@ Assuming this is our canister A - deployed with canister id:
 ```motoko
 actor {
     public func foo() : async Text {
-        return "foo"
+        return "foo";
     };   
 }
 ```
@@ -155,7 +156,7 @@ actor {
             let foo = await canisterA.foo()
             return foo;
         } catch (e) {
-            return "An error occured when calling canister A".
+            return "An error occured when calling canister A";
         }
     };   
 }

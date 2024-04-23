@@ -27,7 +27,7 @@ If we try with the `HashMap` type that we've seen earlier we will encounter an e
 All primitives types are stable:
 - `Nat` 
 - `Text`
-- `Ìnt`
+- `Int`
 - All bounded numbers: `Nat8`, `Nat16`, `Nat32`, `Nat64`, `Int8`, `Int16`, `Int32`, `Int64`.
 - `Float`
 - `Char`
@@ -175,7 +175,7 @@ actor {
 ```
 > The stable signature of an actor can be generated using the Motoko compiler: [moc](https://internetcomputer.org/docs/current/motoko/main/compiler-ref).
 
-The stable signature is used to automatically check type compability before an upgrade. This is possible by comparing the signature of the new actor with the old one and using some rules based on Candid. For more information, see the [reference section on stable signatures](https://internetcomputer.org/docs/current/motoko/main/upgrades#stable-type-signatures).
+The stable signature is used to automatically check type compatibility before an upgrade. This is possible by comparing the signature of the new actor with the old one and using some rules based on Candid. For more information, see the [reference section on stable signatures](https://internetcomputer.org/docs/current/motoko/main/upgrades#stable-type-signatures).
 ## Metadata section.
 The Motoko compiler embeds the **Candid interface** and **stable signature** of a canister as canister metadata, recorded in additional Wasm custom sections of a compiled binary.
 

@@ -16,7 +16,7 @@ To complete this Chapter, we suggest browsing the following resources:
 
 <ul>
   <li><a href="https://internetcomputer.org/docs/current/motoko/main/base/Option" target="_blank">Option module </a></li>
-  <li><a href="https://internetcomputer.org/docs/current/motoko/main/base/Option" target="_blank">Principal module </a></li>
+  <li><a href="https://internetcomputer.org/docs/current/motoko/main/base/Principal" target="_blank">Principal module </a></li>
 </ul>
 
 ## Tasks
@@ -34,7 +34,7 @@ To complete this Chapter, we suggest browsing the following resources:
 5. Implement the `burn` function. This function takes a `Principal` and a `Nat` as arguments. It subtracts the `Nat` from the balance of the given `Principal`. You will use the `Result` type for your return value.
 6. Implement the `transfer` function. This function takes a `Principal` representing the sender (from), a `Principal` representing the recipient (to), and a `Nat` value for the amount to be transferred. It transfers the specified amount of tokens from the sender's account to the recipient's account. You will use the `Result` type for your return value.
 7. Implement the `balanceOf` query function. This function takes a `Principal` as an argument and returns the balance of the given account as a `Nat`. It should return 0 if the account does not exist in the `ledger` variable.
-8. Implement the `totalSupply` query function. This function takes no parameters and returns the total supply of your token as a `Nat`.
+8. Implement the `totalSupply` query function. This function takes no parameters and returns the total supply of your token as a `Nat`. The total supply is calculated by adding together the balances of every user stored in the `ledger` variable.
 9. Complete **Chapter 3** by deploying your canister and submitting your ID on [motokobootcamp.com](https://www.motokobootcamp.com/).
 
 > To deploy your application run `dfx deploy --playground chapter_3`.

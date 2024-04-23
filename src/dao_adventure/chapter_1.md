@@ -21,7 +21,7 @@ To complete this Chapter, we suggest browsing the following resources:
   <li><a href="https://nnri3-7qaaa-aaaaj-qa3qa-cai.icp0.io/motoko_theory/chapter-2/CHAPTER-2.html" target="_blank">Lesson 2 - Programming concepts</a></li>
   <li><a href="https://nnri3-7qaaa-aaaaj-qa3qa-cai.icp0.io/motoko_theory/chapter-3/CHAPTER-3.html" target="_blank">Lesson 3 - Primitives types</a></li>
   <li><a href="https://nnri3-7qaaa-aaaaj-qa3qa-cai.icp0.io/motoko_theory/chapter-4/CHAPTER-4.html" target="_blank">Lesson 4 - Candid</a></li>
-  <li><a href="https://internetcomputer.org/docs/current/motoko/main/base/Buffer" target="_blank">Buffer</a></li>
+  <li><a href="https://internetcomputer.org/docs/current/motoko/main/base/Buffer" target="_blank">Buffer</a> or the subsection Buffer of <a href="https://nnri3-7qaaa-aaaaj-qa3qa-cai.icp0.io/motoko_theory/chapter-6/CHAPTER-6.html#-buffer" target="_blank">Lesson 6 - Data-structures</a></li>
 </ul>
 
 ## Tasks
@@ -41,7 +41,7 @@ To complete this Chapter, we suggest browsing the following resources:
 8. Implement the `getGoals` query function, this function takes no parameters and returns all the goals of your DAO in an Array.
 9. Complete **Chapter 1** by deploying your canister and submitting your ID on [motokobootcamp.com](https://www.motokobootcamp.com/).
 
-> To deploy your application `dfx deploy --playground chapter_1`.
+> To deploy your application `dfx deploy --playground chapter_1` (remember to paste this command in a new terminal).
 
 ## Video
 
