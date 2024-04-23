@@ -41,7 +41,7 @@ To complete this Chapter, we suggest browsing the following resources:
 8. Implement the `getGoals` query function, this function takes no parameters and returns all the goals of your DAO in an Array.
 9. Complete **Chapter 1** by deploying your canister and submitting your ID on [motokobootcamp.com](https://www.motokobootcamp.com/).
 
-> To deploy your application `dfx deploy --playground chapter_1`.
+> To deploy your application `dfx deploy --playground chapter_1` (remember to paste this command in a new terminal).
 
 ## Video
 
