@@ -15,10 +15,10 @@ Today, we won't focus on building the community itself (this could take months).
 To complete this Chapter, we suggest browsing the following resources:
 
 <ul>
-  <li><a href="https://nnri3-7qaaa-aaaaj-qa3qa-cai.icp0.io/motoko_theory/chapter-6/CHAPTER-6.html" target="_blank">Lesson 6 - Data structures</a></li>
-  <li><a href="https://nnri3-7qaaa-aaaaj-qa3qa-cai.icp0.io/motoko_theory/chapter-7/CHAPTER-7.html" target="_blank">Lesson 7 - Non primitive types</a></li>
-  <li><a href="https://nnri3-7qaaa-aaaaj-qa3qa-cai.icp0.io/motoko_theory/chapter-8/CHAPTER-8.html" target="_blank">Lesson 8 - Advanced types</a></li>
-  <li><a href="https://nnri3-7qaaa-aaaaj-qa3qa-cai.icp0.io/motoko_theory/chapter-9/CHAPTER-9.html" target="_blank">Lesson 9 - Handling errors</a></li>
+  <li><a href="https://nnri3-7qaaa-aaaaj-qa3qa-cai.icp0.io/motoko_theory/lesson-6/lesson-6.html" target="_blank">Lesson 6 - Data structures</a></li>
+  <li><a href="https://nnri3-7qaaa-aaaaj-qa3qa-cai.icp0.io/motoko_theory/lesson-7/lesson-7.html" target="_blank">Lesson 7 - Non primitive types</a></li>
+  <li><a href="https://nnri3-7qaaa-aaaaj-qa3qa-cai.icp0.io/motoko_theory/lesson-8/lesson-8.html" target="_blank">Lesson 8 - Advanced types</a></li>
+  <li><a href="https://nnri3-7qaaa-aaaaj-qa3qa-cai.icp0.io/motoko_theory/lesson-9/lesson-9.html" target="_blank">Lesson 9 - Handling errors</a></li>
   <li><a href="https://internetcomputer.org/docs/current/motoko/main/base/HashMap" target="_blank">HashMap module</a></li>
   <li><a href="https://internetcomputer.org/docs/current/motoko/main/base/Result" target="_blank">Result module</a></li>
   <li><a href="https://internetcomputer.org/docs/current/motoko/main/base/Iter" target="_blank">Iter module </a></li>

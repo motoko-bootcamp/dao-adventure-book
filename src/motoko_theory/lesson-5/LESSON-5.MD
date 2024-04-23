@@ -1,6 +1,7 @@
-# Chapter 5: Modules 
+# Lesson 5: Modules
 
-## 🧩 Modules 
+## 🧩 Modules
+
 So far, we've explored the basics—operations like addition, subtraction, and string concatenation built directly into the language. To tackle more complex tasks, we'll need to delve into the world of modules.
 
 Modules are collections of named variables, functions, and types, each designed for a specific purpose. They help us organize our code efficiently. Typically, a module resides in its own file, allowing us to import its contents into other Motoko files as needed.
@@ -17,7 +18,8 @@ module {
 
 Modules enable you to define types, classes, or utility functions, which you can then import into your `main.mo` file.
 
-## 📚 Base library 
+## 📚 Base library
+
 The base library comprises a collection of modules that offer functions for working with common data types like `Bool`, `Nat`, `Int`, `Text`, and others.
 
 This library's source code is hosted on GitHub, with contributions from DFINITY foundation engineers and the wider community. Each module comes with its documentation page, detailing the functions it provides. For instance, you can find [the documentation page for the `Nat` module](https://internetcomputer.org/docs/current/motoko/main/base/Nat).
@@ -25,8 +27,7 @@ This library's source code is hosted on GitHub, with contributions from DFINITY 
 <p align="center"> <img src="assets/base_library_nat.png" width="800px" style="border: 2px solid black;"></p>
 <p align="center">  </p>
 
-
-To import from the base library, you use the `import` keyword, followed by the module's local name and a URL pointing to the module's location. 
+To import from the base library, you use the `import` keyword, followed by the module's local name and a URL pointing to the module's location.
 
 ```motoko
 import Buffer "mo:base/Buffer";
@@ -44,12 +45,11 @@ actor {
 };
 ```
 
-
 ## 🐶 MOPS
+
 MOPS is a Motoko package manager featuring a fully on-chain package registry. It allows you to install packages from the Motoko community in your projects.
 
 <p align="center"> <img src="assets/mops.png" width="800px" style="border: 2px solid black;"></p>
 <p align="center">  </p>
 
-Here is the [quick start guide](https://docs.mops.one/quick-start) from MOPS. 
-
+Here is the [quick start guide](https://docs.mops.one/quick-start) from MOPS.

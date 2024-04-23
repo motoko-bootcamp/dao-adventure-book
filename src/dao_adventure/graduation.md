@@ -81,7 +81,7 @@ You'll need to use the Faucet canister to:
 
 To complete this Chapter, we suggest browsing the following resources:
 
-<li><a href="https://nnri3-7qaaa-aaaaj-qa3qa-cai.icp0.io/motoko_theory/chapter-13/CHAPTER-13.html" target="_blank">Lesson 11 - Intercanister calls </a></li>
+<li><a href="https://nnri3-7qaaa-aaaaj-qa3qa-cai.icp0.io/motoko_theory/lesson-13/lesson-13.html" target="_blank">Lesson 11 - Intercanister calls </a></li>
 
 ## Submission
 

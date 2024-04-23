@@ -17,11 +17,11 @@ Today, we're going to outline a vision, choose a name, and set goals for our DAO
 To complete this Chapter, we suggest browsing the following resources:
 
 <ul>
-  <li><a href="https://nnri3-7qaaa-aaaaj-qa3qa-cai.icp0.io/motoko_theory/chapter-1/CHAPTER-1.html" target="_blank">Lesson 1 - Fundamental concepts</a></li>
-  <li><a href="https://nnri3-7qaaa-aaaaj-qa3qa-cai.icp0.io/motoko_theory/chapter-2/CHAPTER-2.html" target="_blank">Lesson 2 - Programming concepts</a></li>
-  <li><a href="https://nnri3-7qaaa-aaaaj-qa3qa-cai.icp0.io/motoko_theory/chapter-3/CHAPTER-3.html" target="_blank">Lesson 3 - Primitives types</a></li>
-  <li><a href="https://nnri3-7qaaa-aaaaj-qa3qa-cai.icp0.io/motoko_theory/chapter-4/CHAPTER-4.html" target="_blank">Lesson 4 - Candid</a></li>
-  <li><a href="https://internetcomputer.org/docs/current/motoko/main/base/Buffer" target="_blank">Buffer</a> or the subsection Buffer of <a href="https://nnri3-7qaaa-aaaaj-qa3qa-cai.icp0.io/motoko_theory/chapter-6/CHAPTER-6.html#-buffer" target="_blank">Lesson 6 - Data-structures</a></li>
+  <li><a href="https://nnri3-7qaaa-aaaaj-qa3qa-cai.icp0.io/motoko_theory/lesson-1/lesson-1.html" target="_blank">Lesson 1 - Fundamental concepts</a></li>
+  <li><a href="https://nnri3-7qaaa-aaaaj-qa3qa-cai.icp0.io/motoko_theory/lesson-2/lesson-2.html" target="_blank">Lesson 2 - Programming concepts</a></li>
+  <li><a href="https://nnri3-7qaaa-aaaaj-qa3qa-cai.icp0.io/motoko_theory/lesson-3/lesson-3.html" target="_blank">Lesson 3 - Primitives types</a></li>
+  <li><a href="https://nnri3-7qaaa-aaaaj-qa3qa-cai.icp0.io/motoko_theory/lesson-4/lesson-4.html" target="_blank">Lesson 4 - Candid</a></li>
+  <li><a href="https://internetcomputer.org/docs/current/motoko/main/base/Buffer" target="_blank">Buffer</a> or the subsection Buffer of <a href="https://nnri3-7qaaa-aaaaj-qa3qa-cai.icp0.io/motoko_theory/lesson-6/lesson-6.html#-buffer" target="_blank">Lesson 6 - Data-structures</a></li>
 </ul>
 
 ## Tasks

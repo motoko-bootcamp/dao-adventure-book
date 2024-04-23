@@ -49,28 +49,25 @@ We recommend to use our online development environment to complete the course. G
 
 ## Course 🧑‍💻
 
-The course is organized into 7 distinct sections, comprising 5 main chapters, a Qualification section, and a Graduation segment. There is also a bonus section if you
-desire to continue your journey after graduation. Each chapter, contains coding tasks and has to be validated on the [Submission website](https://www.motokobootcamp.com/).
+The course is organized into 7 distinct sections, comprising 5 main chapters, a Qualification section, and a Graduation segment. There is also a bonus section if you desire to continue your journey after graduation.
 
-| Day               | Project                    | Description                                                                                                     |
-| ----------------- | -------------------------- | --------------------------------------------------------------------------------------------------------------- | --- |
-| **Qualification** | Can you prove your skills? | Get started and deploy your first application on the Internet Computer.                                         |
-| **Chapter 1**     | What is your dream?        | Define your project and develop a vision.                                                                       |
-| **Chapter 2**     | Create your tribe          | Learn about the power of the collective and how to build a community.                                           |
-| **Chapter 3**     | Making money               | Create and manage a token                                                                                       |
-| **Chapter 4**     | Listen to your community   | Implement a voting system and a proposal mechanism and learn about the power of governance and decision-making. |
-| **Chapter 5**     | Build your brand           | Build a webpage and develop a branding for your dApp                                                            |
-| **Graduation**    | Final project              | Have you followed the course? It's time to graduate.                                                            |     |
+| Day           | Project                    | Description                                                                                                     |
+| ------------- | -------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| Qualification | Can you prove your skills? | Get started and deploy your first application on the Internet Computer.                                         |
+| Chapter 1     | What is your dream?        | Define your project and develop a vision.                                                                       |
+| Chapter 2     | Create your tribe          | Learn about the power of the collective and how to build a community.                                           |
+| Chapter 3     | Making money               | Create and manage a token.                                                                                      |
+| Chapter 4     | Listen to your community   | Implement a voting system and a proposal mechanism and learn about the power of governance and decision-making. |
+| Chapter 5     | Build your brand           | Build a webpage and develop a branding for your dApp.                                                           |
+| Graduation    | Graduation                 | Have you followed the course? It's time to graduate and submit your final project.                              |
 
-## Theory 📚
-
-The course offers 13 optional yet strongly advised Motoko lessons, essential for each chapter. For every chapter, we'll suggest relevant lessons.
+The course also offers 13 optional yet strongly advised Motoko lessons, essential for each chapter. For every chapter, we'll suggest relevant lessons.
 
 ## Get started in 20 minutes ⚡️
 
-If you want to get started quickly, you can watch the introduction video.
+To get started quickly, watch the introduction video.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gHzrssylmh0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" style="display: block; margin-left: auto; margin-right: auto;"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mbbxXwot21?si=yyjDWrZXCWWhhX7P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" style="display: block; margin-left: auto; margin-right: auto;"></iframe>
 
 ## Playlist 🍿
 

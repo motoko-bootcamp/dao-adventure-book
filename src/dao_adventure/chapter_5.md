@@ -16,7 +16,7 @@ Actually, these two approaches end up being similar. This is because the asset c
 
 To complete this Chapter, we suggest browsing the following resources:
 
-<li><a href="https://nnri3-7qaaa-aaaaj-qa3qa-cai.icp0.io/motoko_theory/chapter-13/CHAPTER-13.html" target="_blank">Lesson 13 - Serving a webpage </a></li>
+<li><a href="https://nnri3-7qaaa-aaaaj-qa3qa-cai.icp0.io/motoko_theory/lesson-13/lesson-13.html" target="_blank">Lesson 13 - Serving a webpage </a></li>
 
 ## Tasks
 
