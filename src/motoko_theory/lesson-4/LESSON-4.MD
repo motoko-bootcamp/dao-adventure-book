@@ -220,6 +220,6 @@ After importing the Candid interface we can now use the public backend service, 
 const greeting = await greet_backend.greet(name);
 ```
 
-The update function `greet()` is called with the name as a parameter, which will return the greeting message. The call is asynchronous so an **await** is added so the front end is waiting for a response before moving on.
+The update function `greet()` is called with the name as a parameter, which will return the greeting message. The call is asynchronous so an **await** is added to make the front end wait for a response before moving on.
 
 Several agents are developed by both DFINITY and the community to easily integrate the Candid interface in different programming languages. See the [documentation](https://internetcomputer.org/docs/current/developer-docs/build/agents/) for a list of the available agents.

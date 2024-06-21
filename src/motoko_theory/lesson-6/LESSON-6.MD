@@ -38,7 +38,7 @@ let names : [Text] = ["Emma Smith", "Olivia Johnson", "Ava Brown", "Isabella Dav
 let size = names.size();    // 4
 ```
 
-To loop over an array we can use the `.vals()` iterator. Here is an example that would gave us the sum of an array.
+To loop over an array we can use the `.vals()` iterator. Here is an example that would give us the sum of an array.
 
 ```motoko
 actor {
@@ -54,9 +54,9 @@ actor {
 };
 ```
 
-In Motoko, arrays have a fixed size that is determined when the array is created. This means that the size cannot be increased later on. To add a new element to an array, a new array must be created and all of the existing elements must be transferred to the new array manually. This makes `Array` not really adapted for datastructures that needs be constantly updated.
+In Motoko, arrays have a fixed size that is determined when the array is created. This means that the size cannot be increased later on. To add a new element to an array, a new array must be created and all of the existing elements must be transferred to the new array manually. This makes `Array` not really suitable for data structures that need to be constantly updated.
 
-Concatenating two arrays to an `Array` can be done using `Array.append()` - a function from the [Array](https://internetcomputer.org/docs/current/motoko/main/base/Array) module.
+Concatenating two arrays to one `Array` can be done using `Array.append()` - a function from the [Array](https://internetcomputer.org/docs/current/motoko/main/base/Array) module.
 
 ```motoko
 let array1 = [1, 2, 3];
@@ -64,7 +64,7 @@ let array2 = [4, 5, 6];
 Array.append<Nat>(array1, array2) // [1, 2, 3, 4, 5, 6];
 ```
 
-However, this function is **depreceated**. It is recommended to avoid it in production code. That's because as we've said before it is impossible to simply add elements to an array. Under the hood, `Array.append()` will create a new array and copy the values of the two existing arrays which is not efficient.
+However, this function is **deprecated**. It is recommended to avoid it in production code. That's because as we've said before it is impossible to simply add elements to an array. Under the hood, `Array.append()` will create a new array and copy the values of the two existing arrays which is not efficient.
 
 ## 🥞 Buffer
 
@@ -211,7 +211,7 @@ To add a new entry to the `map` we can use the `.put()` method.
 map.put(principal, student);
 ```
 
-This will insert the value `student` with key `principal` and overwrites any previous value. We can use this method to create a `register` function that students would need to call and provide all their relevant informations.
+This will insert the value `student` with key `principal` and overwrite any previous value. We can use this method to create a `register` function that students would need to call and provide all their relevant information.
 
 ```motoko
 public shared ({ caller }) func register(name : Text, age : Nat, favoriteLanguage : Text) : async () {
@@ -235,7 +235,7 @@ Once a value has been inserted in the `map`, we can access it using the `.get()`
 map.get(principal);
 ```
 
-This will return an optional value `?Student` associated with the provided principal. We can use this method to create a `getStudent` `query` function that would return information on students.
+This will return an optional value `?Student` associated with the provided principal. We can use this method to create a `getStudent` `query` function that returns information about students.
 
 ```motoko
 public query func getStudent(p : Principal) : async ?Student {
