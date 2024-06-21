@@ -63,7 +63,7 @@ Until now, we've only worked with applications that use a single canister. Today
   - Name: `motoko_bootcamp`
   - Associated Principal: `nkqop-siaaa-aaaaj-qa3qq-cai`
 
-> You can decide to hardcode the initial setup or create an external one that will be executed canister upon deployment.
+> You can decide to hardcode the initial setup or create an external one that will be executed upon canister deployment.
 
 7. **Token Faucet**
    You are required to use the **Motoko Bootcamp Token**, a free, educational token faucet. It allows unlimited minting but holds no real economic value; it's solely for educational use.

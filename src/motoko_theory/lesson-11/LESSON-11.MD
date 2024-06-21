@@ -42,7 +42,7 @@ public type Invoice = {
 
 ## Calling an actor by reference.
 
-The most straighforward way to call another canister it's **by reference**. This technique will always work, whether you are working locally or on mainnet but it requires two informations about the canister you want to call:
+The most straighforward way to call another canister is **by reference**. This technique will always work, whether you are working locally or on mainnet but it requires two things about the canister you want to call:
 
 1. The canister id.
 2. The interface of the canister (at least partially).
@@ -75,7 +75,7 @@ let invoiceCanister = actor("rrkah-fqaaa-aaaaa-aaaaq-ca") : actor {
 ## Importing locally
 
 > For this section, check the source code in [ADD LINK].
-> When you a working locally, assuming that you canister is defined in `dfx.json` as follows.
+> When you are working locally, assuming that your canister is defined in `dfx.json` as follows.
 
 ```json
 {
@@ -128,7 +128,7 @@ Before calling another canisters, you might want to check its interface. To find
 3. Scroll down through the list of methods until you reach the **Canister Interface** section.
 <p align="center"> <img src="./assets/canister-interface.png" width="500px" style="border: 1px solid black;"/> </p>
 
-4. Here, you can view a list of all public types used and the interface of the service, that list all public methods.
+4. Here, you can view a list of all public types used and the interface of the service, that lists all public methods.
 <p align="center"> <img src="./assets/service-interface.png" width="500px" style="border: 1px solid black;"/> </p>
 
 5. You can use the different tabs to see the interface in different languages (**Candid**, **Motoko**, **Rust**, **JavaScript**, **Typescript**).
@@ -141,7 +141,7 @@ A canister processes its messages sequentially (one at-a-time), with each messag
 
 Suppose you are **canister A** and you are calling **canister B**. The following sequence of events occurs:
 
-- **Canister A** receives a message, which triggers a function. This function then initiates an inter-canister call which result in canister A sending a message to **canister B**.
+- **Canister A** receives a message, which triggers a function. This function then initiates an inter-canister call which results in canister A sending a message to **canister B**.
 - Canister B already has a queue of 2 messages, so the new message is added to the end of the queue.
 - Canister A continues to receive and process additional messages, while canister B processes it's messages one-at-a time.
 - Canister B eventually sends a response to canister A. The message is added to the queue of canister A.
@@ -154,7 +154,7 @@ As you can see, between the instant you call a canister and the moment you recei
 
 ### Intra-Subnet
 
-When canister A and canister B belong to the same subnet, consensus is not required for inter-canister calls. This is because the inter-canister call results from a message being processed has already been agreed upon during the previous consensus round. There is an upper limit to the amount of computation that can be handled within a single consensus round; however, assuming this limit is not surpassed, **canister A will** receive its response in the same round.
+When canister A and canister B belong to the same subnet, consensus is not required for inter-canister calls. This is because the inter-canister call results from a message being processed that had already been agreed upon during the previous consensus round. There is an upper limit to the amount of computation that can be handled within a single consensus round; however, assuming this limit is not surpassed, **canister A will** receive its response in the same round.
 
 ### Inter-Subnet
 

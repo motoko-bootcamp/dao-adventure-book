@@ -6,7 +6,7 @@ Whether you are interacting with the Internet Computer using [Internet Identity]
 
 <p align="center"> <img src="./assets/identity_recap.png" width="600px" style="border: 2px solid black;"> </p>
 
-- A **private key**, which grants you access to all the ICPs you own, allows you to manage canisters, and enables you to access your identity across various applications.
+- A **private key**, which grants you access to all the ICP tokens you own, allows you to manage canisters, and enables you to access your identity across various applications.
 - A **public key**, from which your **principal** is derived.
 
 ## Managing identities with dfx

@@ -18,13 +18,13 @@ A canister has access to two types of memories:
 ## Stable variables.
 
 When a canister is upgraded, the state is lost by default. This means all data application data will be lost, unless it's handled to persist when the canister is upgraded. <br/>
-This can be achieved by storing the data in stable variables, which will persist upgrades. To declare a variable as stable we use the `stable` keyword.
+This can be achieved by storing the data in stable variables, which will persist during upgrades. To declare a variable as stable we use the `stable` keyword.
 
 ```motoko
 stable var m : Int = 0;
 ```
 
-The value of `m` will persits upgrades and not be lost.
+The value of `m` will persist upgrades and not be lost.
 A stable variable is stored in the stable memory.
 
 ## Stable types.
@@ -135,9 +135,9 @@ to
 getDiploma(p : Principal, bootcampYear: ?Nat) -> async ?Diploma;
 ```
 
-Would not cause an issue, when reading messages from old clients, who do not pass that argument, a `null` value is assumed.
+Would not cause an issue. When reading messages from old clients, who do not pass that argument, a `null` value is assumed.
 
-> In the following, all types and interfaces are exprimed in Candid format.
+> In the following examples, all types and interfaces are expressed in Candid format.
 
 Let's look at more examples of what can and can't be done. Imagine the following service
 
@@ -163,7 +163,7 @@ add : (int) -> ();
 
 This is possible because every `nat` is also an `int`. If a client provides a `Nat` it will be compatible with the new expected type. We say that `int` is a supertype of `nat`. However evolving the other way wouldn't be possible since all `int` are not `nat`.
 
-Additionally the function `add` and `substract` could evolve from
+Additionally the function `add` and `subtract` could evolve from
 
 ```
 add : (nat) -> ();
@@ -184,7 +184,7 @@ To safely upgrade a canister, follow those rules:
 - New methods can freely be added.
 - Existing methods can return additional values. Old clients will simply ignore additional values.
 - Existing methods can shorten their parameter list. Old clients will send the extra argument(s) but they will be ignored.
-- Exisiting methods can only add optional types as new parameters (type `opt`). When reading messages from old clients, who do not pass that argument, a `null` value is assumed.
+- Existing methods can only add optional types as new parameters (type `opt`). When reading messages from old clients, who do not pass that argument, a `null` value is assumed.
 - Existing parameter types may be changed, but only to a `supertype` of the previous type. For instance a `nat` parameter can be changed to a `int`.
 - Existing result types may be changed, but only to a `subtype` of the previous type. For instance an `int` result can be changed to a `nat`.
 
@@ -226,7 +226,7 @@ The stable signature is used to automatically check type compatibility before an
 
 The Motoko compiler embeds the **Candid interface** and **stable signature** of a canister as canister metadata, recorded in additional Wasm custom sections of a compiled binary.
 
-This metadata can be selectively exposed by the IC and used by tools such as `dfx` to verify upgrade.
+This metadata can be selectively exposed by the IC and used by tools such as `dfx` to verify the upgrade.
 
 ```
 $ dfx canister metadata [OPTIONS] <CANISTER_NAME> <METADATA_NAME>
