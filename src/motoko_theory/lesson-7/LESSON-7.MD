@@ -108,12 +108,12 @@ public func start(v : Vehicle) : async Text {
     switch(v){
         case(#Car(car)){
             // We can access the car object. For instance we can access the make field by using car.make
-            let make = car.age;
+            let make = car.make;
             return("Vroom 🏎️");
         };
         case(#Moto(m)){
             // We can give the object any name that is convenient. In this case we can access the type by using m.type.
-            let type = m.maneuverability;
+            let type = m.type;
               return("Roar 🏍️");
         };
         case(#Plane(x)){
