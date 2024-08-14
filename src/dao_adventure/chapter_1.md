@@ -6,9 +6,9 @@
 
 ## Introduction
 
-DAOs represent an entirely new way to fuel your dreams. Think about it - this is the first time that anyone can collaborate with the entire world without the need to travel, learn multiple languages or sign any contract - everything happens through the blockchain.
+DAOs represent an entirely new way to fuel your dreams. Consider this: anyone can collaborate with the entire world without the need to travel, learn multiple languages, or sign any contract. Everything can happen through the blockchain.
 
-Whether you are passionate about Web3, AI, music, economy, open source, 3D printing or even politic - DAOs have something for you. You need to figure out what and how you to leverage this new technology. Let your imagination go wild, we are at the beginning of a new era. Now is the time to dream big and experiement crazy ideas.
+Whether you are passionate about Web3, AI, music, economy, open source, 3D printing, or even politics - DAOs have something for you. You need to figure out what and how you to leverage this new technology. Let your imagination go wild. We are at the beginning of a new era. Now is the time to dream big and experiement crazy ideas.
 
 Today, we're going to outline a vision, choose a name, and set goals for our DAO. If you have an existing project, think about adding a community aspect to it to form our DAO. If you don't have a project, think about any club you've liked or ever wanted to join. We'll use these to create our DAO.
 
