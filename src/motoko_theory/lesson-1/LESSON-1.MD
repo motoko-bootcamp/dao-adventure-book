@@ -5,7 +5,7 @@ It's... 🥁... **CANISTER**!
 
 The Internet Computer is a platform that hosts a large number of applications, all of those applications run smoothly within special containers called **canisters**. 
 
-- The Internet Computer is responsible for smoothly and safely run all the canisters deployed on the platform in parallel.
+- The Internet Computer is responsible for smoothly and safely running all the canisters deployed on the platform in parallel.
 - Developers build applications by writing the source code for those canisters. An application can be built into one or several canisters depending on the architecture.
 - Users will interact with applications by sending messages to canisters. This happens whenever you use an application on the Internet Computer and interact with it - a few examples of such interactions are:
     - When you post on a social network.
@@ -25,12 +25,12 @@ Before we move on to Motoko - we actually need to explain another term: **WebAss
 
 If we zoom inside, a canister is composed of:
 - A **WebAssembly module** which is a piece of compiled code from languages such as Rust or Motoko. This is the code that is installed in the canister and is ultimately running. 
-- A **WebAssembly memory** - also called memory pages. This is where the state of the canister is stored and files are stored (photos, videos, tokens...). Code runs by the WebAssembly module will modify the memory.
+- A **WebAssembly memory** - also called memory pages. This is where the state of the canister is stored and files are stored (photos, videos, tokens...). Code ran by the WebAssembly module will modify the memory.
 
 <p align="center"> <img src="./assets/webassembly.png" width="600px" style="border: 2px solid black;"> </p>
 
 <p align="center"> What is <b> WebAssembly </b>? <p>
-WebAssembly is a low-level binary format for executing code in multiples environments (browsers, cloud platform, smart devices, virtual machine..). The main benefits of using WebAssembly are, 
+WebAssembly is a low-level binary format for executing code in multiple environments (browsers, cloud platform, smart devices, virtual machine..). The main benefits of using WebAssembly are, 
 
 - **WebAssembly** supports code written in multiple languages (C, C++, Rust, Motoko) making it a versatile solution for developers.
 - **WebAssembly** code is portable and can run on almost any device. You write it once and you can run it everywhere!
@@ -48,7 +48,7 @@ The only problem with **WebAssembly** is that it's a low-level language and it p
 That's why the [DFINITY Foundation](https://dfinity.org/) has introduced a new language called **Motoko**, which is a programming language specifically designed for creating decentralized applications (dApps) on the Internet Computer. Since Motoko code can directly be compiled into **WebAssembly**, it is an incredible language to build on the Internet Computer. Motoko is a high-level language, that is easy to use. You write in Motoko and then it compiles for you in WebAssembly.
 
 <p align="center"> <img src="./assets/motoko_to_wasm.png" width="600px" style="border: 1px solid black;"/> </p>
-<p align="center"> In Motoko the code is spun, Into WebAssembly it does run.</p>
+<p align="center"> In Motoko the code is spun into WebAssembly.</p>
 
 > It's worth noting that WebAssembly, was co-designed by [Andreas Rossberg](https://github.com/rossberg), who joined the DFINITY Foundation early in 2017 to work on its canister smart contract execution environment and is also the original designer of the Motoko language. The standard is maintained by the [World Wide Web Consortium](https://www.w3.org/). 
 
@@ -108,7 +108,7 @@ actor {
 
 };
 ````
-An **actor** is how a canister is represented and abstracted in **Motoko**. This terms comes from the [Actor model](https://en.wikipedia.org/wiki/Actor_model) which is a way to write computer programs that can handle many tasks at the same time. It does this by treating **actors** as the basic building blocks of a program. <br/>
+An **actor** is how a canister is represented and abstracted in **Motoko**. This term comes from the [Actor model](https://en.wikipedia.org/wiki/Actor_model) which is a way to write computer programs that can handle many tasks at the same time. It does this by treating **actors** as the basic building blocks of a program. <br/>
 An actor is a small computer program that can receive messages, do some work and then send messages to other actors. Actors can also create new actors and control them. All the actors talk to each other by sending messages. Since all interaction between actors is done via message passing, this allows for very high levels of concurrency and parallelism, making it well-suited for distributed systems. In that regards, **the Internet Computer is a distributed computer where each program is a canister !** 
 
 Since canisters have been implemented to follow the actor model - you won't be surprised to learn that canisters:
@@ -120,7 +120,7 @@ Since canisters have been implemented to follow the actor model - you won't be s
 
 
 <p align="center"> <img src="./assets/actor_model.gif" width="800px" style="border: 2px solid black;"></p>
-<p align="center">A canister receives a message, execute it, and possibilty send other messages to other canisters (or even create new ones) in response. </p>
+<p align="center">A canister receives a message, executes it, and possibilty send other messages to other canisters (or even create new ones) in response. </p>
 
 Let's now consider the following actor:
 ```motoko
@@ -149,7 +149,7 @@ Have you noticed the `query` keyword in the previous example?
 
 ### Update calls
 Update calls are used when the user wants to modify the state of a canister. To ensure the integrity of the Internet Computer, these calls must be processed through consensus and by all nodes, which results in a delay of around 1-2 seconds. An update call would be used in the following situations:
-- Posting on a social media, such as [DSCVR](https://dscvr.one/).
+- Posting on social media, such as [DSCVR](https://dscvr.one/).
 - Sending a message on a messaging application, such as [OpenChat](https://oc.app/).
 - Liking or sharing a content on [Distrikt](https://az5sd-cqaaa-aaaae-aaarq-cai.ic0.app/).
 - Buying a NFT on [Entrepot](https://entrepot.app/).

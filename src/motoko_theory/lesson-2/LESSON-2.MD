@@ -110,7 +110,7 @@ To declare a function in Motoko, you must specify the types of the arguments and
 1. Assign the value of `count` to the value of `n`.
 2. Return the current value of `count`.
 
-Motoko allows to omit the `return` at the end of the body of the function, because a block always evaluates to its last expression. Which means, we could rewrite the code in the following way and it would still be valid:
+Motoko allows the `return` at the end of the body of a function to be omitted, because a block always evaluates to its last expression. Which means, we could rewrite the code in the following way and it would still be valid:
 
 ```motoko
 public func setCount(n : Nat) : async Nat {

@@ -66,7 +66,7 @@ If you do it well, others will know how the organization is run, how the funds a
 
 This is the first time in human history that we can create organizations that are both fully transparent, auditable and extremly efficient. Imagine being able to collaborate on your projects with the entire world.
 
-Today, humanity most pressing issues lies in our inability to organize ourselves and work collaboratively without corruption, inefficiency or immense inequalities. The Internet Computer and DAOs are incredible tools that enable us to solve these issues.
+Today, humanity's most pressing issue is our inability to organize ourselves and work collaboratively without corruption, inefficiency, or immense inequalities. The Internet Computer and DAOs are incredible tools that enable us to solve these issues.
 
 Imagine a school running from a decentralized infrastructure, imagine your local government running transparently and knowing where your taxes are spent, imagine a company owned and operated by an online community. This is the future that you can build today.
 

@@ -26,7 +26,7 @@ The proposals that can be voted on by the **NNS** (**Network Nervous System**) a
 - 🌏 Subnet management: proposals related to administering network subnets, such as creating new subnets, adding and removing subnet nodes, or splitting subnets.
 - 🧑‍⚖️ Governance: proposals related to administering governance, such as motions and configuring certain parameters.
 
-To learn more about the incredible power of the NNS, check out the [Internet Computer Wiki](https://wiki.internetcomputer.org/wiki/Network_Nervous_System).
+To learn more about the incredible power of the NNS, check out the [NNS Documentation](https://internetcomputer.org/docs/current/developer-docs/daos/nns/overview).
 
 The NNS is constitued of **different canisters**. Each canister is deployed on the same subnet which is also called the [NNS subnet](https://dashboard.internetcomputer.org/subnet/tdb26-jop6k-aogll-7ltgs-eruif-6kk7m-qpktf-gdiqx-mxtrf-vb5e6-eqe).
 

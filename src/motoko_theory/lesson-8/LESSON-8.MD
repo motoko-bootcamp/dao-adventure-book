@@ -148,11 +148,18 @@ actor {
 
 We will encounter the following error: `Error in file Main.mo:3:28 shared function has non-shared return type [var Nat] type [var Nat] is or contains non-shared type var Nat`.
 
-A very important rule to remember: **every mutable state is always private to an actor.**
+This happens because of a fundamental rule in actor systems: **mutable variables (`var`) must remain private to their actor**.
+To understand why this rule exists, let's imagine a system without it:
 
-To put it short - anything that you can modify in your the state of your canister should be consider private and you won't be able to share it with other actors.
+- Actor A creates a mutable variable and shares it with Actor B
+- Both Actor A and Actor B can now modify the same variable simultaneously
+- If a bug occurs, it would be nearly impossible to track which actor changed the value and when
+- This would lead to race conditions and unpredictable behavior.
+
+=======
+To put it short - anything that you can modify in your the state of your canister should be consider private and you won't be able to share it with other actors. 
 
 <p align="center"> <img src="./assets/mutable_state_actor.png" width="800px" style="border: 2px solid black;"></p>
-<p align="center"> If it's a var your can't share it outside!</p>
+<p align="center"> If it's a var you can't share it outside!</p>
 
 > For a complete overview of all the shared types, [refer to the Motoko Book](https://motoko-book.dev/internet-computer-programming-concepts/async-data/shared-types.html?highlight=Shared%20types#shared-types).

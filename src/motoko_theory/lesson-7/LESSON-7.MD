@@ -27,7 +27,7 @@ Objects are more readable than tuples since each field has a name. The different
 - name which is a `Text` indicating the name of the student.
 - age which is a `Nat` indicating the age of the student.
 - favoriteLanguage which is a `Text` indicating the favorite programming language of the student.
-- graduate which is a `Bool` indicating if the students has already graduated from the Motoko Bootcamp.
+- graduate which is a `Bool` indicating whether the student graduated from the Motoko Bootcamp.
 
 ```motoko
 let student = {
@@ -64,7 +64,7 @@ let student = {
 student.age += 1;
 ```
 
-Objects are often assigned types. In this case we need to create **custom type**. Let's define a type called `Student` which corresponds the object we've previously created.
+Objects are often assigned types. In this case we need to create a **custom type**. Let's define a type called `Student` which corresponds to the object we've previously created.
 
 ```motoko
 type Student = {
@@ -108,12 +108,12 @@ public func start(v : Vehicle) : async Text {
     switch(v){
         case(#Car(car)){
             // We can access the car object. For instance we can access the make field by using car.make
-            let make = car.age;
+            let make = car.make;
             return("Vroom 🏎️");
         };
         case(#Moto(m)){
             // We can give the object any name that is convenient. In this case we can access the type by using m.type.
-            let type = m.maneuverability;
+            let type = m.type;
               return("Roar 🏍️");
         };
         case(#Plane(x)){
