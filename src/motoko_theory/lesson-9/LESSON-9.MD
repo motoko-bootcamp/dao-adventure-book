@@ -69,7 +69,7 @@ Using `Result` to report errors in your API offers a significant benefit: it all
 
 A **trap** is a type of error that occurs during the execution of a message and cannot be resolved. The most common causes of traps are:
 
-- Division by zero.
+- Division by zero
 
 ```motoko
 let a : Nat = 5;
@@ -77,7 +77,7 @@ let b : Nat = 0;
 let c = a / b;
 ```
 
-- Index is out of bounds.
+- Index out of bounds
 
 ```motoko
 let names : [Text] = [];
@@ -91,7 +91,7 @@ assert(false);
 
 In some situations, it can be useful to trap on purpose, with a defined message.
 
-The best way to do so if to use the `Debug.trap()` method from the [Debug library](https://internetcomputer.org/docs/current/motoko/main/base/Debug) which allows you to pass an error message along the `trap`.
+The best way to do so is to use the `Debug.trap()` method from the [Debug library](https://internetcomputer.org/docs/current/motoko/main/base/Debug) which allows you to pass an error message along the `trap`.
 
 ```motoko
 func trap(errorMessage : Text) : None
@@ -168,7 +168,7 @@ The `try/catch` pattern in Motoko is particularly useful when you are attempting
 - The function being called traps, either due to a programming error or because it has run out of resources.
 - The function being called throws an error that needs to be handled.
 
-Assuming this is our canister A - deployed with canister id:
+Assuming this is our canister A - deployed with the canister id `xxx`
 
 ```motoko
 actor {

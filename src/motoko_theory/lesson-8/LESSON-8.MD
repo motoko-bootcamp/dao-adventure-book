@@ -150,9 +150,9 @@ We will encounter the following error: `Error in file Main.mo:3:28 shared functi
 
 A very important rule to remember: **every mutable state is always private to an actor.**
 
-To put it short - anything that you can modify in your the state of your canister should be consider private and you won't be able to share it with other actors. <br/
+To put it short - anything that you can modify in your the state of your canister should be consider private and you won't be able to share it with other actors. <br/>
 
 <p align="center"> <img src="./assets/mutable_state_actor.png" width="800px" style="border: 2px solid black;"></p>
-<p align="center"> If it's a var your can't share it outside!</p>
+<p align="center"> If it's a var you can't share it outside!</p>
 
 > For a complete overview of all the shared types, [refer to the Motoko Book](https://web3.motoko-book.dev/internet-computer-programming-concepts/async-data/shared-types.html?highlight=Shared%20types#shared-types).

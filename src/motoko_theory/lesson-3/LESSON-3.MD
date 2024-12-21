@@ -60,7 +60,7 @@ let b : Nat = 3 % 2;    // 1
 
 ## ➖ Int.
 
-Integers represents whole numbers that can be positive or negative. The same mathematical operations seen earlier (addition, multiplication, subtraction, division, and modulo) can be performed on both `Int` and `Nat`.
+Integers represent whole numbers that can be positive or negative. The same mathematical operations seen earlier (addition, multiplication, subtraction, division, and modulo) can be performed on both `Int` and `Nat`.
 
 ```motoko
 let i : Int = -3;

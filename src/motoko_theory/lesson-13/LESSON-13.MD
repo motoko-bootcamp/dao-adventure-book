@@ -39,7 +39,7 @@ To serve web content on the Internet Computer, a canister should have a method t
 
 ## The `http_request` query method
 
-Once the boundary node has received the request. It will encode it into Candid and automatically call the `http_request` method of the canister. reachable by browsers, you need to implement an `http_request` query method as part of the public interface of your actor. <br/>
+Once the boundary node has received the request. It will encode it into Candid and automatically call the `http_request` method of the canister, reachable by browsers. You need to implement an `http_request` query method as part of the public interface of your actor. <br/>
 
 ```motoko
 import Text "mo:base/Text";
