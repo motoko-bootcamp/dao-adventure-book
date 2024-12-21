@@ -1,18 +1,12 @@
-# The DAO Adventure - Book
+# Survival guide
 
-A book to follow the [DAO Adventure course](https://github.com/motoko-bootcamp/dao-adventure) - with step-by-step **Motoko** code and lessons.
+A book to help you survive during your [Motoko Bootcamp](https://github.com/motoko-bootcamp/motoko-bootcamp).
 
-This code is meant to be use in coordination with:
+- 7 step-by-steps **Motoko** projects
+- 13 lessons on **Motoko** syntax.
+- 2 Appendix on **DAOs** and the **NNS**.
 
-- [DAO Adventure - Starter repository](https://github.com/motoko-bootcamp/dao-adventure) - to code.
-- [Submission website](https://www.motokobootcamp.com/) - to submit Chapters and record progression on-chain.
+- [Codebase](https://github.com/motoko-bootcamp/bootcamp): contains the code you need to complete.
+- [Platform](https://www.motokobootcamp.com/): the platform where you need to register and submit completed projects for verification.
 
-This book is [hosted 100% on-chain](https://nnri3-7qaaa-aaaaj-qa3qa-cai.icp0.io/) - on the **Internet Computer**.
-
-## Credits
-
-Written by [seb_icp](https://twitter.com/seb_icp/) with the support from [Code & State](https://www.codeandstate.com/).
-
-## Final words
-
-Let's make the DAO Revolution a reality. And having fun doing so.
+This book is hosted on the Internet Computer, access [here](https://nnri3-7qaaa-aaaaj-qa3qa-cai.icp0.io/)

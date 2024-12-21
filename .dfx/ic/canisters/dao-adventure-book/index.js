@@ -4,7 +4,7 @@ import { Actor, HttpAgent } from "@dfinity/agent";
 import { idlFactory } from './dao-adventure-book.did.js';
 export { idlFactory } from './dao-adventure-book.did.js';
 // CANISTER_ID is replaced by webpack based on node environment
-export const canisterId = process.env.DAO-ADVENTURE-BOOK_CANISTER_ID;
+export const canisterId = process.env.CANISTER_ID_DAO_ADVENTURE_BOOK;
 
 /**
  * @deprecated since dfx 0.11.1
@@ -39,4 +39,4 @@ See https://internetcomputer.org/docs/current/developer-docs/updates/release-not
  * A ready-to-use agent for the dao-adventure-book canister
  * @type {import("@dfinity/agent").ActorSubclass<import("./dao-adventure-book.did.js")._SERVICE>}
  */
-export const dao-adventure-book = createActor(canisterId);
+export const dao_adventure_book = createActor(canisterId);
