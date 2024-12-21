@@ -1,14 +1,20 @@
-# The DAO Adventure
+# Survival
 
 Last updated: 2024-02-28
 
-To follow this course, make sure to be registered on the [Submission website](https://www.motokobootcamp.com/).
+To follow this course, make sure to be registered on our [Platform](https://www.motokobootcamp.com/).
 
 ## Welcome 👋
 
-Welcome to the DAO Adventure a course designed to teach you how to create a **DAO** (Decentralized Autonomous Organization) from scratch on the **Internet Computer** platform, using the **Motoko** programming language.
+Welcome to the beginning of your Web3 adventure.
+
+You've joined the Motoko Bootcamp, an elite recruiting programm for Web3 soldiers.
+
+During this Bootcamp, you'll learn how to create a **DAO** (Decentralized Autonomous Organization) from scratch on the **Internet Computer** platform, using the **Motoko** programming language.
 
 ---
+
+Why a DAO?
 
 DAOs are a major innovation, changing governance. Just like the **steam engine** made the **Industrial Revolution** possible by harnessing **physical power**, **DAOs** harness **political power** and make a **Web3 revolution** possible. This could fundamentally change how we organize society and resources, with the end goal of creating a more stable, flourishing and collaborative civilization.
 
@@ -63,18 +69,18 @@ The course is organized into 7 distinct sections, comprising 5 main chapters, a 
 
 The course also offers 13 optional yet strongly advised Motoko lessons, essential for each chapter. For every chapter, we'll suggest relevant lessons.
 
-## Get started in 20 minutes ⚡️
+## Quick Start ⚡️
 
-To get started quickly, watch the introduction video.
+Begin with our introduction video:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mbbxXwot21?si=yyjDWrZXCWWhhX7P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" style="display: block; margin-left: auto; margin-right: auto;"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mbbxXwot21" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" style="display: block; margin-left: auto; margin-right: auto;"></iframe>
 
 ## Playlist 🍿
 
-To help you with the course, we have created a playlist with all the videos you need to complete the course - our channel also contains additional resources and tutorials about Motoko, the Internet Computer, and DAOs.
+To help your training, we have created a playlist with all the videos you need to complete the course - our channel also contains additional resources and tutorials about Motoko, the Internet Computer, and DAOs.
 
-Access the playlist [here](https://www.youtube.com/watch?v=gHzrssylmh0&list=PLl8VueN-2q18cOvhb1pDPPAUbUHY9z-CU).
+Access the playlist [here](https://www.youtube.com/watch?v=gHzrssylmh0&list=PLl8VueN-2q18cOvhb1pDPPAUbUHY9zU).
 
 ## Credits ✏️
 
-Written by [seb_icp](https://twitter.com/seb_icp/) with the support from [Code & State](https://www.codeandstate.com/).
+Written by [seb_icp](https://twitter.com/seb_icp/) with support from [Code & State](https://www.codeandstate.com/).
