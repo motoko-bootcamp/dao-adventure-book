@@ -130,9 +130,9 @@ type List<T> = ?(T, List<T>);
 ```
 
 "The difference between a list and an array is that an array is stored as one contiguous block of bytes in memory and a list is 'scattered' around without the elements having to be adjacent to each other. The advantage is that we can use memory more efficiently by filling the memory more flexibly. The downside is that for operations on the whole list, we have to visit each element one by one which may be computationally expensive."
-[source](https://web3.motoko-book.dev/base-library/data-structures/list.html)
+[source](https://motoko-book.dev/base-library/data-structures/list.html)
 
-Read about Lists and Recursive types [here](https://web3.motoko-book.dev/advanced-types/recursive-types.html).
+Read about Lists and Recursive types [here](https://motoko-book.dev/advanced-types/recursive-types.html).
 
 Here is an example of a function that retrieves the last element of a particular list.
 
@@ -186,7 +186,7 @@ type Student = {
 In that case:
 
 - K is of type `Principal` and represents the key of the HashMap.
-- V is of type `User` and represents the stored value.
+- V is of type `Student` and represents the stored value.
 
 To initiate our `HashMap`
 
